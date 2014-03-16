@@ -1,0 +1,4785 @@
+{
+    "EditorExtensionImpl": {"serializedVersion": 6},
+    "MonoBehaviour": {
+        "m_GameObject": null,
+        "m_ScrollView": {
+            "m_OnActive": {
+                "m_TextColor": {
+                    "a": 1,
+                    "rgb": "#000000"
+                },
+                "m_Background": null
+            },
+            "m_Hover": {
+                "m_TextColor": {
+                    "a": 1,
+                    "rgb": "#000000"
+                },
+                "m_Background": null
+            },
+            "m_WordWrap": 0,
+            "m_Padding": {
+                "m_Bottom": 10,
+                "m_Left": 10,
+                "m_Top": 10,
+                "m_Right": 10
+            },
+            "m_RichText": 1,
+            "m_OnHover": {
+                "m_TextColor": {
+                    "a": 1,
+                    "rgb": "#000000"
+                },
+                "m_Background": null
+            },
+            "m_OnFocused": {
+                "m_TextColor": {
+                    "a": 1,
+                    "rgb": "#000000"
+                },
+                "m_Background": null
+            },
+            "m_Alignment": 0,
+            "m_Font": null,
+            "m_FontStyle": 0,
+            "m_FontSize": 0,
+            "m_Name": "scrollview",
+            "m_Margin": {
+                "m_Bottom": 2,
+                "m_Left": 2,
+                "m_Top": 2,
+                "m_Right": 2
+            },
+            "m_FixedWidth": 0,
+            "m_StretchWidth": 1,
+            "m_Active": {
+                "m_TextColor": {
+                    "a": 1,
+                    "rgb": "#000000"
+                },
+                "m_Background": null
+            },
+            "m_Normal": {
+                "m_TextColor": {
+                    "a": 1,
+                    "rgb": "#000000"
+                },
+                "m_Background": "controls/TextFieldNormal.tga"
+            },
+            "m_OnNormal": {
+                "m_TextColor": {
+                    "a": 1,
+                    "rgb": "#000000"
+                },
+                "m_Background": null
+            },
+            "m_Overflow": {
+                "m_Bottom": 0,
+                "m_Left": 0,
+                "m_Top": 0,
+                "m_Right": 0
+            },
+            "m_FixedHeight": 0,
+            "m_ContentOffset": {
+                "y": 0,
+                "x": 0
+            },
+            "m_Border": {
+                "m_Bottom": 10,
+                "m_Left": 10,
+                "m_Top": 10,
+                "m_Right": 10
+            },
+            "m_Focused": {
+                "m_TextColor": {
+                    "a": 1,
+                    "rgb": "#000000"
+                },
+                "m_Background": null
+            },
+            "m_TextClipping": 1,
+            "m_ImagePosition": 0,
+            "m_StretchHeight": 1
+        },
+        "m_Script": {
+            "guid": 0,
+            "fileID": 12001,
+            "type": 0
+        },
+        "m_PrefabParentObject": null,
+        "m_textField": {
+            "m_OnActive": {
+                "m_TextColor": {
+                    "a": 1,
+                    "rgb": "#48280c"
+                },
+                "m_Background": "controls/TextFieldSelect.tga"
+            },
+            "m_Hover": {
+                "m_TextColor": {
+                    "a": 1,
+                    "rgb": "#48280c"
+                },
+                "m_Background": null
+            },
+            "m_WordWrap": 0,
+            "m_Padding": {
+                "m_Bottom": 4,
+                "m_Left": 8,
+                "m_Top": 4,
+                "m_Right": 8
+            },
+            "m_RichText": 1,
+            "m_OnHover": {
+                "m_TextColor": {
+                    "a": 1,
+                    "rgb": "#48280c"
+                },
+                "m_Background": null
+            },
+            "m_OnFocused": {
+                "m_TextColor": {
+                    "a": 1,
+                    "rgb": "#000000"
+                },
+                "m_Background": "controls/TextFieldSelect.tga"
+            },
+            "m_Alignment": 0,
+            "m_Font": null,
+            "m_FontStyle": 0,
+            "m_FontSize": 0,
+            "m_Name": "textfield",
+            "m_Margin": {
+                "m_Bottom": 2,
+                "m_Left": 2,
+                "m_Top": 2,
+                "m_Right": 2
+            },
+            "m_FixedWidth": 0,
+            "m_StretchWidth": 1,
+            "m_Active": {
+                "m_TextColor": {
+                    "a": 1,
+                    "rgb": "#000000"
+                },
+                "m_Background": "controls/TextFieldSelect.tga"
+            },
+            "m_Normal": {
+                "m_TextColor": {
+                    "a": 1,
+                    "rgb": "#48280c"
+                },
+                "m_Background": "controls/TextFieldNormal.tga"
+            },
+            "m_OnNormal": {
+                "m_TextColor": {
+                    "a": 1,
+                    "rgb": "#48280c"
+                },
+                "m_Background": "controls/TextFieldNormal.tga"
+            },
+            "m_Overflow": {
+                "m_Bottom": 0,
+                "m_Left": 0,
+                "m_Top": 0,
+                "m_Right": 0
+            },
+            "m_FixedHeight": 26,
+            "m_ContentOffset": {
+                "y": 0,
+                "x": 0
+            },
+            "m_Border": {
+                "m_Bottom": 8,
+                "m_Left": 8,
+                "m_Top": 8,
+                "m_Right": 8
+            },
+            "m_Focused": {
+                "m_TextColor": {
+                    "a": 1,
+                    "rgb": "#000000"
+                },
+                "m_Background": "controls/TextFieldSelect.tga"
+            },
+            "m_TextClipping": 1,
+            "m_ImagePosition": 3,
+            "m_StretchHeight": 0
+        },
+        "m_window": {
+            "m_OnActive": {
+                "m_TextColor": {
+                    "a": 1,
+                    "rgb": "#48280c"
+                },
+                "m_Background": null
+            },
+            "m_Hover": {
+                "m_TextColor": {
+                    "a": 1,
+                    "rgb": "#000000"
+                },
+                "m_Background": null
+            },
+            "m_WordWrap": 0,
+            "m_Padding": {
+                "m_Bottom": 63,
+                "m_Left": 47,
+                "m_Top": 52,
+                "m_Right": 47
+            },
+            "m_RichText": 1,
+            "m_OnHover": {
+                "m_TextColor": {
+                    "a": 1,
+                    "rgb": "#48280c"
+                },
+                "m_Background": null
+            },
+            "m_OnFocused": {
+                "m_TextColor": {
+                    "a": 1,
+                    "rgb": "#48280c"
+                },
+                "m_Background": null
+            },
+            "m_Alignment": 1,
+            "m_Font": null,
+            "m_FontStyle": 0,
+            "m_FontSize": 0,
+            "m_Name": "window",
+            "m_Margin": {
+                "m_Bottom": 0,
+                "m_Left": 0,
+                "m_Top": 0,
+                "m_Right": 0
+            },
+            "m_FixedWidth": 0,
+            "m_StretchWidth": 1,
+            "m_Active": {
+                "m_TextColor": {
+                    "a": 1,
+                    "rgb": "#000000"
+                },
+                "m_Background": null
+            },
+            "m_Normal": {
+                "m_TextColor": {
+                    "a": 1,
+                    "rgb": "#48280c"
+                },
+                "m_Background": "controls/window.tga"
+            },
+            "m_OnNormal": {
+                "m_TextColor": {
+                    "a": 1,
+                    "rgb": "#48280c"
+                },
+                "m_Background": "controls/window.tga"
+            },
+            "m_Overflow": {
+                "m_Bottom": 0,
+                "m_Left": 0,
+                "m_Top": 0,
+                "m_Right": 0
+            },
+            "m_FixedHeight": 0,
+            "m_ContentOffset": {
+                "y": -18,
+                "x": 0
+            },
+            "m_Border": {
+                "m_Bottom": 63,
+                "m_Left": 47,
+                "m_Top": 97,
+                "m_Right": 47
+            },
+            "m_Focused": {
+                "m_TextColor": {
+                    "a": 1,
+                    "rgb": "#000000"
+                },
+                "m_Background": null
+            },
+            "m_TextClipping": 1,
+            "m_ImagePosition": 0,
+            "m_StretchHeight": 1
+        },
+        "m_box": {
+            "m_OnActive": {
+                "m_TextColor": {
+                    "a": 1,
+                    "rgb": "#48280c"
+                },
+                "m_Background": null
+            },
+            "m_Hover": {
+                "m_TextColor": {
+                    "a": 1,
+                    "rgb": "#48280c"
+                },
+                "m_Background": null
+            },
+            "m_WordWrap": 0,
+            "m_Padding": {
+                "m_Bottom": 10,
+                "m_Left": 10,
+                "m_Top": 10,
+                "m_Right": 10
+            },
+            "m_RichText": 1,
+            "m_OnHover": {
+                "m_TextColor": {
+                    "a": 1,
+                    "rgb": "#48280c"
+                },
+                "m_Background": null
+            },
+            "m_OnFocused": {
+                "m_TextColor": {
+                    "a": 1,
+                    "rgb": "#48280c"
+                },
+                "m_Background": null
+            },
+            "m_Alignment": 1,
+            "m_Font": null,
+            "m_FontStyle": 0,
+            "m_FontSize": 0,
+            "m_Name": "box",
+            "m_Margin": {
+                "m_Bottom": 2,
+                "m_Left": 2,
+                "m_Top": 2,
+                "m_Right": 2
+            },
+            "m_FixedWidth": 0,
+            "m_StretchWidth": 1,
+            "m_Active": {
+                "m_TextColor": {
+                    "a": 1,
+                    "rgb": "#48280c"
+                },
+                "m_Background": null
+            },
+            "m_Normal": {
+                "m_TextColor": {
+                    "a": 1,
+                    "rgb": "#48280c"
+                },
+                "m_Background": "controls/TextBox.tga"
+            },
+            "m_OnNormal": {
+                "m_TextColor": {
+                    "a": 1,
+                    "rgb": "#48280c"
+                },
+                "m_Background": null
+            },
+            "m_Overflow": {
+                "m_Bottom": 0,
+                "m_Left": 0,
+                "m_Top": 0,
+                "m_Right": 0
+            },
+            "m_FixedHeight": 0,
+            "m_ContentOffset": {
+                "y": 0,
+                "x": 0
+            },
+            "m_Border": {
+                "m_Bottom": 10,
+                "m_Left": 10,
+                "m_Top": 10,
+                "m_Right": 10
+            },
+            "m_Focused": {
+                "m_TextColor": {
+                    "a": 1,
+                    "rgb": "#48280c"
+                },
+                "m_Background": null
+            },
+            "m_TextClipping": 1,
+            "m_ImagePosition": 0,
+            "m_StretchHeight": 0
+        },
+        "m_verticalScrollbarUpButton": {
+            "m_OnActive": {
+                "m_TextColor": {
+                    "a": 1,
+                    "rgb": "#000000"
+                },
+                "m_Background": null
+            },
+            "m_Hover": {
+                "m_TextColor": {
+                    "a": 1,
+                    "rgb": "#000000"
+                },
+                "m_Background": null
+            },
+            "m_WordWrap": 0,
+            "m_Padding": {
+                "m_Bottom": 0,
+                "m_Left": 0,
+                "m_Top": 0,
+                "m_Right": 0
+            },
+            "m_RichText": 1,
+            "m_OnHover": {
+                "m_TextColor": {
+                    "a": 1,
+                    "rgb": "#000000"
+                },
+                "m_Background": null
+            },
+            "m_OnFocused": {
+                "m_TextColor": {
+                    "a": 1,
+                    "rgb": "#000000"
+                },
+                "m_Background": null
+            },
+            "m_Alignment": 0,
+            "m_Font": null,
+            "m_FontStyle": 0,
+            "m_FontSize": 0,
+            "m_Name": "verticalscrollbarupbutton",
+            "m_Margin": {
+                "m_Bottom": 0,
+                "m_Left": 0,
+                "m_Top": 0,
+                "m_Right": 0
+            },
+            "m_FixedWidth": 0,
+            "m_StretchWidth": 1,
+            "m_Active": {
+                "m_TextColor": {
+                    "a": 1,
+                    "rgb": "#000000"
+                },
+                "m_Background": null
+            },
+            "m_Normal": {
+                "m_TextColor": {
+                    "a": 1,
+                    "rgb": "#000000"
+                },
+                "m_Background": null
+            },
+            "m_OnNormal": {
+                "m_TextColor": {
+                    "a": 1,
+                    "rgb": "#000000"
+                },
+                "m_Background": null
+            },
+            "m_Overflow": {
+                "m_Bottom": 0,
+                "m_Left": 0,
+                "m_Top": 0,
+                "m_Right": 0
+            },
+            "m_FixedHeight": 0,
+            "m_ContentOffset": {
+                "y": 0,
+                "x": 0
+            },
+            "m_Border": {
+                "m_Bottom": 0,
+                "m_Left": 0,
+                "m_Top": 0,
+                "m_Right": 0
+            },
+            "m_Focused": {
+                "m_TextColor": {
+                    "a": 1,
+                    "rgb": "#000000"
+                },
+                "m_Background": null
+            },
+            "m_TextClipping": 1,
+            "m_ImagePosition": 0,
+            "m_StretchHeight": 0
+        },
+        "m_verticalScrollbar": {
+            "m_OnActive": {
+                "m_TextColor": {
+                    "a": 1,
+                    "rgb": "#000000"
+                },
+                "m_Background": null
+            },
+            "m_Hover": {
+                "m_TextColor": {
+                    "a": 1,
+                    "rgb": "#000000"
+                },
+                "m_Background": null
+            },
+            "m_WordWrap": 0,
+            "m_Padding": {
+                "m_Bottom": 4,
+                "m_Left": 0,
+                "m_Top": 4,
+                "m_Right": 0
+            },
+            "m_RichText": 1,
+            "m_OnHover": {
+                "m_TextColor": {
+                    "a": 1,
+                    "rgb": "#000000"
+                },
+                "m_Background": null
+            },
+            "m_OnFocused": {
+                "m_TextColor": {
+                    "a": 1,
+                    "rgb": "#000000"
+                },
+                "m_Background": null
+            },
+            "m_Alignment": 0,
+            "m_Font": null,
+            "m_FontStyle": 0,
+            "m_FontSize": 0,
+            "m_Name": "verticalscrollbar",
+            "m_Margin": {
+                "m_Bottom": 4,
+                "m_Left": 4,
+                "m_Top": 4,
+                "m_Right": 4
+            },
+            "m_FixedWidth": 16,
+            "m_StretchWidth": 0,
+            "m_Active": {
+                "m_TextColor": {
+                    "a": 1,
+                    "rgb": "#000000"
+                },
+                "m_Background": null
+            },
+            "m_Normal": {
+                "m_TextColor": {
+                    "a": 1,
+                    "rgb": "#000000"
+                },
+                "m_Background": "controls/WinScrollVert.tga"
+            },
+            "m_OnNormal": {
+                "m_TextColor": {
+                    "a": 1,
+                    "rgb": "#000000"
+                },
+                "m_Background": null
+            },
+            "m_Overflow": {
+                "m_Bottom": 5,
+                "m_Left": 0,
+                "m_Top": 0,
+                "m_Right": 0
+            },
+            "m_FixedHeight": 0,
+            "m_ContentOffset": {
+                "y": 0,
+                "x": 0
+            },
+            "m_Border": {
+                "m_Bottom": 16,
+                "m_Left": 16,
+                "m_Top": 16,
+                "m_Right": 0
+            },
+            "m_Focused": {
+                "m_TextColor": {
+                    "a": 1,
+                    "rgb": "#000000"
+                },
+                "m_Background": null
+            },
+            "m_TextClipping": 1,
+            "m_ImagePosition": 0,
+            "m_StretchHeight": 1
+        },
+        "m_Font": "controls/Kingthings_Calligraphica.ttf",
+        "m_horizontalSliderThumb": {
+            "m_OnActive": {
+                "m_TextColor": {
+                    "a": 1,
+                    "rgb": "#000000"
+                },
+                "m_Background": null
+            },
+            "m_Hover": {
+                "m_TextColor": {
+                    "a": 1,
+                    "rgb": "#000000"
+                },
+                "m_Background": null
+            },
+            "m_WordWrap": 0,
+            "m_Padding": {
+                "m_Bottom": 0,
+                "m_Left": 0,
+                "m_Top": 0,
+                "m_Right": 0
+            },
+            "m_RichText": 1,
+            "m_OnHover": {
+                "m_TextColor": {
+                    "a": 1,
+                    "rgb": "#000000"
+                },
+                "m_Background": null
+            },
+            "m_OnFocused": {
+                "m_TextColor": {
+                    "a": 1,
+                    "rgb": "#000000"
+                },
+                "m_Background": null
+            },
+            "m_Alignment": 4,
+            "m_Font": null,
+            "m_FontStyle": 0,
+            "m_FontSize": 0,
+            "m_Name": "horizontalsliderthumb",
+            "m_Margin": {
+                "m_Bottom": 0,
+                "m_Left": 0,
+                "m_Top": 0,
+                "m_Right": 0
+            },
+            "m_FixedWidth": 21,
+            "m_StretchWidth": 0,
+            "m_Active": {
+                "m_TextColor": {
+                    "a": 1,
+                    "rgb": "#000000"
+                },
+                "m_Background": null
+            },
+            "m_Normal": {
+                "m_TextColor": {
+                    "a": 1,
+                    "rgb": "#000000"
+                },
+                "m_Background": "controls/SliderThumb.tga"
+            },
+            "m_OnNormal": {
+                "m_TextColor": {
+                    "a": 1,
+                    "rgb": "#000000"
+                },
+                "m_Background": null
+            },
+            "m_Overflow": {
+                "m_Bottom": -5,
+                "m_Left": 0,
+                "m_Top": 5,
+                "m_Right": 0
+            },
+            "m_FixedHeight": 21,
+            "m_ContentOffset": {
+                "y": 0,
+                "x": 0
+            },
+            "m_Border": {
+                "m_Bottom": 0,
+                "m_Left": 0,
+                "m_Top": 0,
+                "m_Right": 0
+            },
+            "m_Focused": {
+                "m_TextColor": {
+                    "a": 1,
+                    "rgb": "#000000"
+                },
+                "m_Background": null
+            },
+            "m_TextClipping": 1,
+            "m_ImagePosition": 2,
+            "m_StretchHeight": 0
+        },
+        "m_horizontalScrollbarLeftButton": {
+            "m_OnActive": {
+                "m_TextColor": {
+                    "a": 1,
+                    "rgb": "#000000"
+                },
+                "m_Background": null
+            },
+            "m_Hover": {
+                "m_TextColor": {
+                    "a": 1,
+                    "rgb": "#000000"
+                },
+                "m_Background": null
+            },
+            "m_WordWrap": 0,
+            "m_Padding": {
+                "m_Bottom": 0,
+                "m_Left": 0,
+                "m_Top": 0,
+                "m_Right": 0
+            },
+            "m_RichText": 1,
+            "m_OnHover": {
+                "m_TextColor": {
+                    "a": 1,
+                    "rgb": "#000000"
+                },
+                "m_Background": null
+            },
+            "m_OnFocused": {
+                "m_TextColor": {
+                    "a": 1,
+                    "rgb": "#000000"
+                },
+                "m_Background": null
+            },
+            "m_Alignment": 0,
+            "m_Font": null,
+            "m_FontStyle": 0,
+            "m_FontSize": 0,
+            "m_Name": "horizontalscrollbarleftbutton",
+            "m_Margin": {
+                "m_Bottom": 0,
+                "m_Left": 0,
+                "m_Top": 0,
+                "m_Right": 0
+            },
+            "m_FixedWidth": 0,
+            "m_StretchWidth": 1,
+            "m_Active": {
+                "m_TextColor": {
+                    "a": 1,
+                    "rgb": "#000000"
+                },
+                "m_Background": null
+            },
+            "m_Normal": {
+                "m_TextColor": {
+                    "a": 1,
+                    "rgb": "#000000"
+                },
+                "m_Background": null
+            },
+            "m_OnNormal": {
+                "m_TextColor": {
+                    "a": 1,
+                    "rgb": "#000000"
+                },
+                "m_Background": null
+            },
+            "m_Overflow": {
+                "m_Bottom": 0,
+                "m_Left": 0,
+                "m_Top": 0,
+                "m_Right": 0
+            },
+            "m_FixedHeight": 0,
+            "m_ContentOffset": {
+                "y": 0,
+                "x": 0
+            },
+            "m_Border": {
+                "m_Bottom": 0,
+                "m_Left": 0,
+                "m_Top": 0,
+                "m_Right": 0
+            },
+            "m_Focused": {
+                "m_TextColor": {
+                    "a": 1,
+                    "rgb": "#000000"
+                },
+                "m_Background": null
+            },
+            "m_TextClipping": 1,
+            "m_ImagePosition": 0,
+            "m_StretchHeight": 0
+        },
+        "m_CustomStyles": [
+            {
+                "m_OnActive": {
+                    "m_TextColor": {
+                        "a": 1,
+                        "rgb": "#000000"
+                    },
+                    "m_Background": null
+                },
+                "m_Hover": {
+                    "m_TextColor": {
+                        "a": 1,
+                        "rgb": "#000000"
+                    },
+                    "m_Background": null
+                },
+                "m_WordWrap": 0,
+                "m_Padding": {
+                    "m_Bottom": 0,
+                    "m_Left": 0,
+                    "m_Top": 0,
+                    "m_Right": 0
+                },
+                "m_RichText": 1,
+                "m_OnHover": {
+                    "m_TextColor": {
+                        "a": 1,
+                        "rgb": "#000000"
+                    },
+                    "m_Background": null
+                },
+                "m_OnFocused": {
+                    "m_TextColor": {
+                        "a": 1,
+                        "rgb": "#000000"
+                    },
+                    "m_Background": null
+                },
+                "m_Alignment": 0,
+                "m_Font": null,
+                "m_FontStyle": 0,
+                "m_FontSize": 0,
+                "m_Name": "WaxSeal",
+                "m_Margin": {
+                    "m_Bottom": 0,
+                    "m_Left": 0,
+                    "m_Top": 0,
+                    "m_Right": 0
+                },
+                "m_FixedWidth": 70,
+                "m_StretchWidth": 0,
+                "m_Active": {
+                    "m_TextColor": {
+                        "a": 1,
+                        "rgb": "#000000"
+                    },
+                    "m_Background": null
+                },
+                "m_Normal": {
+                    "m_TextColor": {
+                        "a": 1,
+                        "rgb": "#000000"
+                    },
+                    "m_Background": "controls/WaxSeal.tga"
+                },
+                "m_OnNormal": {
+                    "m_TextColor": {
+                        "a": 1,
+                        "rgb": "#000000"
+                    },
+                    "m_Background": null
+                },
+                "m_Overflow": {
+                    "m_Bottom": 0,
+                    "m_Left": 0,
+                    "m_Top": 0,
+                    "m_Right": 0
+                },
+                "m_FixedHeight": 66,
+                "m_ContentOffset": {
+                    "y": 0,
+                    "x": 0
+                },
+                "m_Border": {
+                    "m_Bottom": 0,
+                    "m_Left": 0,
+                    "m_Top": 0,
+                    "m_Right": 0
+                },
+                "m_Focused": {
+                    "m_TextColor": {
+                        "a": 1,
+                        "rgb": "#000000"
+                    },
+                    "m_Background": null
+                },
+                "m_TextClipping": 0,
+                "m_ImagePosition": 0,
+                "m_StretchHeight": 0
+            },
+            {
+                "m_OnActive": {
+                    "m_TextColor": {
+                        "a": 1,
+                        "rgb": "#000000"
+                    },
+                    "m_Background": null
+                },
+                "m_Hover": {
+                    "m_TextColor": {
+                        "a": 1,
+                        "rgb": "#000000"
+                    },
+                    "m_Background": null
+                },
+                "m_WordWrap": 0,
+                "m_Padding": {
+                    "m_Bottom": 0,
+                    "m_Left": 0,
+                    "m_Top": 0,
+                    "m_Right": 0
+                },
+                "m_RichText": 1,
+                "m_OnHover": {
+                    "m_TextColor": {
+                        "a": 1,
+                        "rgb": "#000000"
+                    },
+                    "m_Background": null
+                },
+                "m_OnFocused": {
+                    "m_TextColor": {
+                        "a": 1,
+                        "rgb": "#000000"
+                    },
+                    "m_Background": null
+                },
+                "m_Alignment": 0,
+                "m_Font": null,
+                "m_FontStyle": 0,
+                "m_FontSize": 0,
+                "m_Name": "GoldLeaf",
+                "m_Margin": {
+                    "m_Bottom": 0,
+                    "m_Left": 0,
+                    "m_Top": 0,
+                    "m_Right": 0
+                },
+                "m_FixedWidth": 127,
+                "m_StretchWidth": 0,
+                "m_Active": {
+                    "m_TextColor": {
+                        "a": 1,
+                        "rgb": "#000000"
+                    },
+                    "m_Background": null
+                },
+                "m_Normal": {
+                    "m_TextColor": {
+                        "a": 1,
+                        "rgb": "#000000"
+                    },
+                    "m_Background": "controls/GoldLeaf.tga"
+                },
+                "m_OnNormal": {
+                    "m_TextColor": {
+                        "a": 1,
+                        "rgb": "#000000"
+                    },
+                    "m_Background": null
+                },
+                "m_Overflow": {
+                    "m_Bottom": 0,
+                    "m_Left": 0,
+                    "m_Top": 0,
+                    "m_Right": 0
+                },
+                "m_FixedHeight": 62,
+                "m_ContentOffset": {
+                    "y": 0,
+                    "x": 0
+                },
+                "m_Border": {
+                    "m_Bottom": 0,
+                    "m_Left": 0,
+                    "m_Top": 0,
+                    "m_Right": 0
+                },
+                "m_Focused": {
+                    "m_TextColor": {
+                        "a": 1,
+                        "rgb": "#000000"
+                    },
+                    "m_Background": null
+                },
+                "m_TextClipping": 0,
+                "m_ImagePosition": 0,
+                "m_StretchHeight": 0
+            },
+            {
+                "m_OnActive": {
+                    "m_TextColor": {
+                        "a": 1,
+                        "rgb": "#000000"
+                    },
+                    "m_Background": null
+                },
+                "m_Hover": {
+                    "m_TextColor": {
+                        "a": 1,
+                        "rgb": "#000000"
+                    },
+                    "m_Background": null
+                },
+                "m_WordWrap": 0,
+                "m_Padding": {
+                    "m_Bottom": 0,
+                    "m_Left": 0,
+                    "m_Top": 0,
+                    "m_Right": 0
+                },
+                "m_RichText": 1,
+                "m_OnHover": {
+                    "m_TextColor": {
+                        "a": 1,
+                        "rgb": "#000000"
+                    },
+                    "m_Background": null
+                },
+                "m_OnFocused": {
+                    "m_TextColor": {
+                        "a": 1,
+                        "rgb": "#000000"
+                    },
+                    "m_Background": null
+                },
+                "m_Alignment": 0,
+                "m_Font": null,
+                "m_FontStyle": 0,
+                "m_FontSize": 0,
+                "m_Name": "IconFrame",
+                "m_Margin": {
+                    "m_Bottom": 0,
+                    "m_Left": 0,
+                    "m_Top": 0,
+                    "m_Right": 0
+                },
+                "m_FixedWidth": 53,
+                "m_StretchWidth": 0,
+                "m_Active": {
+                    "m_TextColor": {
+                        "a": 1,
+                        "rgb": "#000000"
+                    },
+                    "m_Background": null
+                },
+                "m_Normal": {
+                    "m_TextColor": {
+                        "a": 1,
+                        "rgb": "#000000"
+                    },
+                    "m_Background": "controls/IconFrame.tga"
+                },
+                "m_OnNormal": {
+                    "m_TextColor": {
+                        "a": 1,
+                        "rgb": "#000000"
+                    },
+                    "m_Background": null
+                },
+                "m_Overflow": {
+                    "m_Bottom": 0,
+                    "m_Left": 0,
+                    "m_Top": 0,
+                    "m_Right": 0
+                },
+                "m_FixedHeight": 54,
+                "m_ContentOffset": {
+                    "y": 0,
+                    "x": 0
+                },
+                "m_Border": {
+                    "m_Bottom": 0,
+                    "m_Left": 0,
+                    "m_Top": 0,
+                    "m_Right": 0
+                },
+                "m_Focused": {
+                    "m_TextColor": {
+                        "a": 1,
+                        "rgb": "#000000"
+                    },
+                    "m_Background": null
+                },
+                "m_TextClipping": 0,
+                "m_ImagePosition": 0,
+                "m_StretchHeight": 0
+            },
+            {
+                "m_OnActive": {
+                    "m_TextColor": {
+                        "a": 1,
+                        "rgb": "#000000"
+                    },
+                    "m_Background": null
+                },
+                "m_Hover": {
+                    "m_TextColor": {
+                        "a": 1,
+                        "rgb": "#000000"
+                    },
+                    "m_Background": null
+                },
+                "m_WordWrap": 0,
+                "m_Padding": {
+                    "m_Bottom": 0,
+                    "m_Left": 0,
+                    "m_Top": 0,
+                    "m_Right": 0
+                },
+                "m_RichText": 1,
+                "m_OnHover": {
+                    "m_TextColor": {
+                        "a": 1,
+                        "rgb": "#000000"
+                    },
+                    "m_Background": null
+                },
+                "m_OnFocused": {
+                    "m_TextColor": {
+                        "a": 1,
+                        "rgb": "#000000"
+                    },
+                    "m_Background": null
+                },
+                "m_Alignment": 0,
+                "m_Font": null,
+                "m_FontStyle": 0,
+                "m_FontSize": 0,
+                "m_Name": "Skull",
+                "m_Margin": {
+                    "m_Bottom": 0,
+                    "m_Left": 0,
+                    "m_Top": 0,
+                    "m_Right": 0
+                },
+                "m_FixedWidth": 34,
+                "m_StretchWidth": 0,
+                "m_Active": {
+                    "m_TextColor": {
+                        "a": 1,
+                        "rgb": "#000000"
+                    },
+                    "m_Background": null
+                },
+                "m_Normal": {
+                    "m_TextColor": {
+                        "a": 1,
+                        "rgb": "#000000"
+                    },
+                    "m_Background": "controls/Skull.tga"
+                },
+                "m_OnNormal": {
+                    "m_TextColor": {
+                        "a": 1,
+                        "rgb": "#000000"
+                    },
+                    "m_Background": null
+                },
+                "m_Overflow": {
+                    "m_Bottom": 0,
+                    "m_Left": 0,
+                    "m_Top": 0,
+                    "m_Right": 0
+                },
+                "m_FixedHeight": 36,
+                "m_ContentOffset": {
+                    "y": 0,
+                    "x": 0
+                },
+                "m_Border": {
+                    "m_Bottom": 0,
+                    "m_Left": 0,
+                    "m_Top": 0,
+                    "m_Right": 0
+                },
+                "m_Focused": {
+                    "m_TextColor": {
+                        "a": 1,
+                        "rgb": "#000000"
+                    },
+                    "m_Background": null
+                },
+                "m_TextClipping": 0,
+                "m_ImagePosition": 0,
+                "m_StretchHeight": 0
+            },
+            {
+                "m_OnActive": {
+                    "m_TextColor": {
+                        "a": 1,
+                        "rgb": "#48280c"
+                    },
+                    "m_Background": null
+                },
+                "m_Hover": {
+                    "m_TextColor": {
+                        "a": 1,
+                        "rgb": "#48280c"
+                    },
+                    "m_Background": null
+                },
+                "m_WordWrap": 1,
+                "m_Padding": {
+                    "m_Bottom": 0,
+                    "m_Left": 0,
+                    "m_Top": 0,
+                    "m_Right": 0
+                },
+                "m_RichText": 1,
+                "m_OnHover": {
+                    "m_TextColor": {
+                        "a": 1,
+                        "rgb": "#48280c"
+                    },
+                    "m_Background": null
+                },
+                "m_OnFocused": {
+                    "m_TextColor": {
+                        "a": 1,
+                        "rgb": "#48280c"
+                    },
+                    "m_Background": null
+                },
+                "m_Alignment": 0,
+                "m_Font": null,
+                "m_FontStyle": 0,
+                "m_FontSize": 0,
+                "m_Name": "PlainText",
+                "m_Margin": {
+                    "m_Bottom": 2,
+                    "m_Left": 2,
+                    "m_Top": 2,
+                    "m_Right": 2
+                },
+                "m_FixedWidth": 0,
+                "m_StretchWidth": 0,
+                "m_Active": {
+                    "m_TextColor": {
+                        "a": 1,
+                        "rgb": "#48280c"
+                    },
+                    "m_Background": null
+                },
+                "m_Normal": {
+                    "m_TextColor": {
+                        "a": 1,
+                        "rgb": "#48280c"
+                    },
+                    "m_Background": null
+                },
+                "m_OnNormal": {
+                    "m_TextColor": {
+                        "a": 1,
+                        "rgb": "#48280c"
+                    },
+                    "m_Background": null
+                },
+                "m_Overflow": {
+                    "m_Bottom": 0,
+                    "m_Left": 0,
+                    "m_Top": 0,
+                    "m_Right": 0
+                },
+                "m_FixedHeight": 0,
+                "m_ContentOffset": {
+                    "y": 0,
+                    "x": 0
+                },
+                "m_Border": {
+                    "m_Bottom": 0,
+                    "m_Left": 0,
+                    "m_Top": 0,
+                    "m_Right": 0
+                },
+                "m_Focused": {
+                    "m_TextColor": {
+                        "a": 1,
+                        "rgb": "#48280c"
+                    },
+                    "m_Background": null
+                },
+                "m_TextClipping": 0,
+                "m_ImagePosition": 0,
+                "m_StretchHeight": 0
+            },
+            {
+                "m_OnActive": {
+                    "m_TextColor": {
+                        "a": 1,
+                        "rgb": "#48280c"
+                    },
+                    "m_Background": null
+                },
+                "m_Hover": {
+                    "m_TextColor": {
+                        "a": 1,
+                        "rgb": "#48280c"
+                    },
+                    "m_Background": null
+                },
+                "m_WordWrap": 1,
+                "m_Padding": {
+                    "m_Bottom": 0,
+                    "m_Left": 0,
+                    "m_Top": 0,
+                    "m_Right": 0
+                },
+                "m_RichText": 1,
+                "m_OnHover": {
+                    "m_TextColor": {
+                        "a": 1,
+                        "rgb": "#48280c"
+                    },
+                    "m_Background": null
+                },
+                "m_OnFocused": {
+                    "m_TextColor": {
+                        "a": 1,
+                        "rgb": "#48280c"
+                    },
+                    "m_Background": null
+                },
+                "m_Alignment": 0,
+                "m_Font": "controls/Kingthings_Calligraphica_Italic.ttf",
+                "m_FontStyle": 0,
+                "m_FontSize": 0,
+                "m_Name": "ItalicText",
+                "m_Margin": {
+                    "m_Bottom": 2,
+                    "m_Left": 2,
+                    "m_Top": 2,
+                    "m_Right": 2
+                },
+                "m_FixedWidth": 0,
+                "m_StretchWidth": 0,
+                "m_Active": {
+                    "m_TextColor": {
+                        "a": 1,
+                        "rgb": "#48280c"
+                    },
+                    "m_Background": null
+                },
+                "m_Normal": {
+                    "m_TextColor": {
+                        "a": 1,
+                        "rgb": "#48280c"
+                    },
+                    "m_Background": null
+                },
+                "m_OnNormal": {
+                    "m_TextColor": {
+                        "a": 1,
+                        "rgb": "#48280c"
+                    },
+                    "m_Background": null
+                },
+                "m_Overflow": {
+                    "m_Bottom": 0,
+                    "m_Left": 0,
+                    "m_Top": 0,
+                    "m_Right": 0
+                },
+                "m_FixedHeight": 0,
+                "m_ContentOffset": {
+                    "y": 0,
+                    "x": 0
+                },
+                "m_Border": {
+                    "m_Bottom": 0,
+                    "m_Left": 0,
+                    "m_Top": 0,
+                    "m_Right": 0
+                },
+                "m_Focused": {
+                    "m_TextColor": {
+                        "a": 1,
+                        "rgb": "#48280c"
+                    },
+                    "m_Background": null
+                },
+                "m_TextClipping": 0,
+                "m_ImagePosition": 0,
+                "m_StretchHeight": 0
+            },
+            {
+                "m_OnActive": {
+                    "m_TextColor": {
+                        "a": 1,
+                        "rgb": "#48280c"
+                    },
+                    "m_Background": null
+                },
+                "m_Hover": {
+                    "m_TextColor": {
+                        "a": 1,
+                        "rgb": "#48280c"
+                    },
+                    "m_Background": null
+                },
+                "m_WordWrap": 1,
+                "m_Padding": {
+                    "m_Bottom": 0,
+                    "m_Left": 0,
+                    "m_Top": 0,
+                    "m_Right": 0
+                },
+                "m_RichText": 1,
+                "m_OnHover": {
+                    "m_TextColor": {
+                        "a": 1,
+                        "rgb": "#48280c"
+                    },
+                    "m_Background": null
+                },
+                "m_OnFocused": {
+                    "m_TextColor": {
+                        "a": 1,
+                        "rgb": "#48280c"
+                    },
+                    "m_Background": null
+                },
+                "m_Alignment": 0,
+                "m_Font": "controls/Kingthings_Calligraphica_Light.ttf",
+                "m_FontStyle": 0,
+                "m_FontSize": 0,
+                "m_Name": "LightText",
+                "m_Margin": {
+                    "m_Bottom": 2,
+                    "m_Left": 2,
+                    "m_Top": 2,
+                    "m_Right": 2
+                },
+                "m_FixedWidth": 0,
+                "m_StretchWidth": 0,
+                "m_Active": {
+                    "m_TextColor": {
+                        "a": 1,
+                        "rgb": "#48280c"
+                    },
+                    "m_Background": null
+                },
+                "m_Normal": {
+                    "m_TextColor": {
+                        "a": 1,
+                        "rgb": "#48280c"
+                    },
+                    "m_Background": null
+                },
+                "m_OnNormal": {
+                    "m_TextColor": {
+                        "a": 1,
+                        "rgb": "#48280c"
+                    },
+                    "m_Background": null
+                },
+                "m_Overflow": {
+                    "m_Bottom": 0,
+                    "m_Left": 0,
+                    "m_Top": 0,
+                    "m_Right": 0
+                },
+                "m_FixedHeight": 0,
+                "m_ContentOffset": {
+                    "y": 0,
+                    "x": 0
+                },
+                "m_Border": {
+                    "m_Bottom": 0,
+                    "m_Left": 0,
+                    "m_Top": 0,
+                    "m_Right": 0
+                },
+                "m_Focused": {
+                    "m_TextColor": {
+                        "a": 1,
+                        "rgb": "#48280c"
+                    },
+                    "m_Background": null
+                },
+                "m_TextClipping": 0,
+                "m_ImagePosition": 0,
+                "m_StretchHeight": 0
+            },
+            {
+                "m_OnActive": {
+                    "m_TextColor": {
+                        "a": 1,
+                        "rgb": "#48280c"
+                    },
+                    "m_Background": null
+                },
+                "m_Hover": {
+                    "m_TextColor": {
+                        "a": 1,
+                        "rgb": "#48280c"
+                    },
+                    "m_Background": null
+                },
+                "m_WordWrap": 0,
+                "m_Padding": {
+                    "m_Bottom": 12,
+                    "m_Left": 30,
+                    "m_Top": 3,
+                    "m_Right": 32
+                },
+                "m_RichText": 1,
+                "m_OnHover": {
+                    "m_TextColor": {
+                        "a": 1,
+                        "rgb": "#48280c"
+                    },
+                    "m_Background": null
+                },
+                "m_OnFocused": {
+                    "m_TextColor": {
+                        "a": 1,
+                        "rgb": "#48280c"
+                    },
+                    "m_Background": null
+                },
+                "m_Alignment": 3,
+                "m_Font": "controls/Kingthings_Calligraphica.ttf",
+                "m_FontStyle": 0,
+                "m_FontSize": 18,
+                "m_Name": "ShortLabel",
+                "m_Margin": {
+                    "m_Bottom": 2,
+                    "m_Left": 2,
+                    "m_Top": 2,
+                    "m_Right": 2
+                },
+                "m_FixedWidth": 0,
+                "m_StretchWidth": 0,
+                "m_Active": {
+                    "m_TextColor": {
+                        "a": 1,
+                        "rgb": "#48280c"
+                    },
+                    "m_Background": null
+                },
+                "m_Normal": {
+                    "m_TextColor": {
+                        "a": 1,
+                        "rgb": "#dcfefe"
+                    },
+                    "m_Background": "controls/Label.tga"
+                },
+                "m_OnNormal": {
+                    "m_TextColor": {
+                        "a": 1,
+                        "rgb": "#48280c"
+                    },
+                    "m_Background": null
+                },
+                "m_Overflow": {
+                    "m_Bottom": 0,
+                    "m_Left": 0,
+                    "m_Top": 0,
+                    "m_Right": 0
+                },
+                "m_FixedHeight": 0,
+                "m_ContentOffset": {
+                    "y": 0,
+                    "x": 0
+                },
+                "m_Border": {
+                    "m_Bottom": 0,
+                    "m_Left": 26,
+                    "m_Top": 20,
+                    "m_Right": 28
+                },
+                "m_Focused": {
+                    "m_TextColor": {
+                        "a": 1,
+                        "rgb": "#48280c"
+                    },
+                    "m_Background": null
+                },
+                "m_TextClipping": 0,
+                "m_ImagePosition": 0,
+                "m_StretchHeight": 0
+            },
+            {
+                "m_OnActive": {
+                    "m_TextColor": {
+                        "a": 1,
+                        "rgb": "#48280c"
+                    },
+                    "m_Background": "controls/button.tga"
+                },
+                "m_Hover": {
+                    "m_TextColor": {
+                        "a": 1,
+                        "rgb": "#48280c"
+                    },
+                    "m_Background": "controls/buttonOver.tga"
+                },
+                "m_WordWrap": 0,
+                "m_Padding": {
+                    "m_Bottom": 6,
+                    "m_Left": 18,
+                    "m_Top": 3,
+                    "m_Right": 20
+                },
+                "m_RichText": 1,
+                "m_OnHover": {
+                    "m_TextColor": {
+                        "a": 1,
+                        "rgb": "#48280c"
+                    },
+                    "m_Background": "controls/buttonOver.tga"
+                },
+                "m_OnFocused": {
+                    "m_TextColor": {
+                        "a": 1,
+                        "rgb": "#48280c"
+                    },
+                    "m_Background": null
+                },
+                "m_Alignment": 3,
+                "m_Font": null,
+                "m_FontStyle": 0,
+                "m_FontSize": 0,
+                "m_Name": "ShortButton",
+                "m_Margin": {
+                    "m_Bottom": 2,
+                    "m_Left": 2,
+                    "m_Top": 2,
+                    "m_Right": 2
+                },
+                "m_FixedWidth": 0,
+                "m_StretchWidth": 0,
+                "m_Active": {
+                    "m_TextColor": {
+                        "a": 1,
+                        "rgb": "#48280c"
+                    },
+                    "m_Background": "controls/button.tga"
+                },
+                "m_Normal": {
+                    "m_TextColor": {
+                        "a": 1,
+                        "rgb": "#48280c"
+                    },
+                    "m_Background": "controls/button.tga"
+                },
+                "m_OnNormal": {
+                    "m_TextColor": {
+                        "a": 1,
+                        "rgb": "#48280c"
+                    },
+                    "m_Background": "controls/button.tga"
+                },
+                "m_Overflow": {
+                    "m_Bottom": 0,
+                    "m_Left": 0,
+                    "m_Top": 0,
+                    "m_Right": 0
+                },
+                "m_FixedHeight": 0,
+                "m_ContentOffset": {
+                    "y": 0,
+                    "x": 0
+                },
+                "m_Border": {
+                    "m_Bottom": 0,
+                    "m_Left": 20,
+                    "m_Top": 0,
+                    "m_Right": 20
+                },
+                "m_Focused": {
+                    "m_TextColor": {
+                        "a": 1,
+                        "rgb": "#48280c"
+                    },
+                    "m_Background": null
+                },
+                "m_TextClipping": 0,
+                "m_ImagePosition": 0,
+                "m_StretchHeight": 0
+            },
+            {
+                "m_OnActive": {
+                    "m_TextColor": {
+                        "a": 1,
+                        "rgb": "#48280c"
+                    },
+                    "m_Background": null
+                },
+                "m_Hover": {
+                    "m_TextColor": {
+                        "a": 1,
+                        "rgb": "#48280c"
+                    },
+                    "m_Background": null
+                },
+                "m_WordWrap": 0,
+                "m_Padding": {
+                    "m_Bottom": 2,
+                    "m_Left": 8,
+                    "m_Top": 2,
+                    "m_Right": 8
+                },
+                "m_RichText": 1,
+                "m_OnHover": {
+                    "m_TextColor": {
+                        "a": 1,
+                        "rgb": "#48280c"
+                    },
+                    "m_Background": null
+                },
+                "m_OnFocused": {
+                    "m_TextColor": {
+                        "a": 1,
+                        "rgb": "#48280c"
+                    },
+                    "m_Background": null
+                },
+                "m_Alignment": 0,
+                "m_Font": "controls/Kingthings_Calligraphica_Light.ttf",
+                "m_FontStyle": 0,
+                "m_FontSize": 0,
+                "m_Name": "OutlineText",
+                "m_Margin": {
+                    "m_Bottom": 2,
+                    "m_Left": 2,
+                    "m_Top": 2,
+                    "m_Right": 2
+                },
+                "m_FixedWidth": 0,
+                "m_StretchWidth": 0,
+                "m_Active": {
+                    "m_TextColor": {
+                        "a": 1,
+                        "rgb": "#48280c"
+                    },
+                    "m_Background": null
+                },
+                "m_Normal": {
+                    "m_TextColor": {
+                        "a": 1,
+                        "rgb": "#48280c"
+                    },
+                    "m_Background": "controls/TextFieldNormal.tga"
+                },
+                "m_OnNormal": {
+                    "m_TextColor": {
+                        "a": 1,
+                        "rgb": "#48280c"
+                    },
+                    "m_Background": null
+                },
+                "m_Overflow": {
+                    "m_Bottom": 0,
+                    "m_Left": 0,
+                    "m_Top": 0,
+                    "m_Right": 0
+                },
+                "m_FixedHeight": 0,
+                "m_ContentOffset": {
+                    "y": 0,
+                    "x": 0
+                },
+                "m_Border": {
+                    "m_Bottom": 8,
+                    "m_Left": 8,
+                    "m_Top": 8,
+                    "m_Right": 8
+                },
+                "m_Focused": {
+                    "m_TextColor": {
+                        "a": 1,
+                        "rgb": "#48280c"
+                    },
+                    "m_Background": null
+                },
+                "m_TextClipping": 0,
+                "m_ImagePosition": 0,
+                "m_StretchHeight": 0
+            },
+            {
+                "m_OnActive": {
+                    "m_TextColor": {
+                        "a": 1,
+                        "rgb": "#48280c"
+                    },
+                    "m_Background": null
+                },
+                "m_Hover": {
+                    "m_TextColor": {
+                        "a": 1,
+                        "rgb": "#48280c"
+                    },
+                    "m_Background": null
+                },
+                "m_WordWrap": 0,
+                "m_Padding": {
+                    "m_Bottom": 2,
+                    "m_Left": 8,
+                    "m_Top": 2,
+                    "m_Right": 8
+                },
+                "m_RichText": 1,
+                "m_OnHover": {
+                    "m_TextColor": {
+                        "a": 1,
+                        "rgb": "#48280c"
+                    },
+                    "m_Background": null
+                },
+                "m_OnFocused": {
+                    "m_TextColor": {
+                        "a": 1,
+                        "rgb": "#48280c"
+                    },
+                    "m_Background": null
+                },
+                "m_Alignment": 0,
+                "m_Font": "controls/Kingthings_Calligraphica_Italic.ttf",
+                "m_FontStyle": 0,
+                "m_FontSize": 0,
+                "m_Name": "ItalicOutlineText",
+                "m_Margin": {
+                    "m_Bottom": 2,
+                    "m_Left": 2,
+                    "m_Top": 2,
+                    "m_Right": 2
+                },
+                "m_FixedWidth": 0,
+                "m_StretchWidth": 0,
+                "m_Active": {
+                    "m_TextColor": {
+                        "a": 1,
+                        "rgb": "#48280c"
+                    },
+                    "m_Background": null
+                },
+                "m_Normal": {
+                    "m_TextColor": {
+                        "a": 1,
+                        "rgb": "#48280c"
+                    },
+                    "m_Background": "controls/TextFieldNormal.tga"
+                },
+                "m_OnNormal": {
+                    "m_TextColor": {
+                        "a": 1,
+                        "rgb": "#48280c"
+                    },
+                    "m_Background": null
+                },
+                "m_Overflow": {
+                    "m_Bottom": 0,
+                    "m_Left": 0,
+                    "m_Top": 0,
+                    "m_Right": 0
+                },
+                "m_FixedHeight": 0,
+                "m_ContentOffset": {
+                    "y": 0,
+                    "x": 0
+                },
+                "m_Border": {
+                    "m_Bottom": 8,
+                    "m_Left": 8,
+                    "m_Top": 8,
+                    "m_Right": 8
+                },
+                "m_Focused": {
+                    "m_TextColor": {
+                        "a": 1,
+                        "rgb": "#48280c"
+                    },
+                    "m_Background": null
+                },
+                "m_TextClipping": 0,
+                "m_ImagePosition": 0,
+                "m_StretchHeight": 0
+            },
+            {
+                "m_OnActive": {
+                    "m_TextColor": {
+                        "a": 1,
+                        "rgb": "#48280c"
+                    },
+                    "m_Background": null
+                },
+                "m_Hover": {
+                    "m_TextColor": {
+                        "a": 1,
+                        "rgb": "#48280c"
+                    },
+                    "m_Background": null
+                },
+                "m_WordWrap": 0,
+                "m_Padding": {
+                    "m_Bottom": 2,
+                    "m_Left": 8,
+                    "m_Top": 2,
+                    "m_Right": 8
+                },
+                "m_RichText": 1,
+                "m_OnHover": {
+                    "m_TextColor": {
+                        "a": 1,
+                        "rgb": "#48280c"
+                    },
+                    "m_Background": null
+                },
+                "m_OnFocused": {
+                    "m_TextColor": {
+                        "a": 1,
+                        "rgb": "#48280c"
+                    },
+                    "m_Background": null
+                },
+                "m_Alignment": 0,
+                "m_Font": "controls/Kingthings_Calligraphica_Light.ttf",
+                "m_FontStyle": 0,
+                "m_FontSize": 0,
+                "m_Name": "LightOutlineText",
+                "m_Margin": {
+                    "m_Bottom": 2,
+                    "m_Left": 2,
+                    "m_Top": 2,
+                    "m_Right": 2
+                },
+                "m_FixedWidth": 0,
+                "m_StretchWidth": 0,
+                "m_Active": {
+                    "m_TextColor": {
+                        "a": 1,
+                        "rgb": "#48280c"
+                    },
+                    "m_Background": null
+                },
+                "m_Normal": {
+                    "m_TextColor": {
+                        "a": 1,
+                        "rgb": "#48280c"
+                    },
+                    "m_Background": "controls/TextFieldNormal.tga"
+                },
+                "m_OnNormal": {
+                    "m_TextColor": {
+                        "a": 1,
+                        "rgb": "#48280c"
+                    },
+                    "m_Background": null
+                },
+                "m_Overflow": {
+                    "m_Bottom": 0,
+                    "m_Left": 0,
+                    "m_Top": 0,
+                    "m_Right": 0
+                },
+                "m_FixedHeight": 0,
+                "m_ContentOffset": {
+                    "y": 0,
+                    "x": 0
+                },
+                "m_Border": {
+                    "m_Bottom": 8,
+                    "m_Left": 8,
+                    "m_Top": 8,
+                    "m_Right": 8
+                },
+                "m_Focused": {
+                    "m_TextColor": {
+                        "a": 1,
+                        "rgb": "#48280c"
+                    },
+                    "m_Background": null
+                },
+                "m_TextClipping": 0,
+                "m_ImagePosition": 0,
+                "m_StretchHeight": 0
+            },
+            {
+                "m_OnActive": {
+                    "m_TextColor": {
+                        "a": 1,
+                        "rgb": "#48280c"
+                    },
+                    "m_Background": null
+                },
+                "m_Hover": {
+                    "m_TextColor": {
+                        "a": 1,
+                        "rgb": "#48280c"
+                    },
+                    "m_Background": null
+                },
+                "m_WordWrap": 0,
+                "m_Padding": {
+                    "m_Bottom": 2,
+                    "m_Left": 8,
+                    "m_Top": 2,
+                    "m_Right": 8
+                },
+                "m_RichText": 1,
+                "m_OnHover": {
+                    "m_TextColor": {
+                        "a": 1,
+                        "rgb": "#48280c"
+                    },
+                    "m_Background": null
+                },
+                "m_OnFocused": {
+                    "m_TextColor": {
+                        "a": 1,
+                        "rgb": "#48280c"
+                    },
+                    "m_Background": null
+                },
+                "m_Alignment": 0,
+                "m_Font": "controls/Kingthings_Calligraphica_Light.ttf",
+                "m_FontStyle": 1,
+                "m_FontSize": 0,
+                "m_Name": "BoldOutlineText",
+                "m_Margin": {
+                    "m_Bottom": 2,
+                    "m_Left": 2,
+                    "m_Top": 2,
+                    "m_Right": 2
+                },
+                "m_FixedWidth": 0,
+                "m_StretchWidth": 0,
+                "m_Active": {
+                    "m_TextColor": {
+                        "a": 1,
+                        "rgb": "#48280c"
+                    },
+                    "m_Background": null
+                },
+                "m_Normal": {
+                    "m_TextColor": {
+                        "a": 1,
+                        "rgb": "#48280c"
+                    },
+                    "m_Background": "controls/TextFieldNormal.tga"
+                },
+                "m_OnNormal": {
+                    "m_TextColor": {
+                        "a": 1,
+                        "rgb": "#48280c"
+                    },
+                    "m_Background": null
+                },
+                "m_Overflow": {
+                    "m_Bottom": 0,
+                    "m_Left": 0,
+                    "m_Top": 0,
+                    "m_Right": 0
+                },
+                "m_FixedHeight": 0,
+                "m_ContentOffset": {
+                    "y": 0,
+                    "x": 0
+                },
+                "m_Border": {
+                    "m_Bottom": 8,
+                    "m_Left": 8,
+                    "m_Top": 8,
+                    "m_Right": 8
+                },
+                "m_Focused": {
+                    "m_TextColor": {
+                        "a": 1,
+                        "rgb": "#48280c"
+                    },
+                    "m_Background": null
+                },
+                "m_TextClipping": 0,
+                "m_ImagePosition": 0,
+                "m_StretchHeight": 0
+            },
+            {
+                "m_OnActive": {
+                    "m_TextColor": {
+                        "a": 1,
+                        "rgb": "#48280c"
+                    },
+                    "m_Background": null
+                },
+                "m_Hover": {
+                    "m_TextColor": {
+                        "a": 1,
+                        "rgb": "#48280c"
+                    },
+                    "m_Background": null
+                },
+                "m_WordWrap": 0,
+                "m_Padding": {
+                    "m_Bottom": 2,
+                    "m_Left": 8,
+                    "m_Top": 2,
+                    "m_Right": 8
+                },
+                "m_RichText": 1,
+                "m_OnHover": {
+                    "m_TextColor": {
+                        "a": 1,
+                        "rgb": "#48280c"
+                    },
+                    "m_Background": null
+                },
+                "m_OnFocused": {
+                    "m_TextColor": {
+                        "a": 1,
+                        "rgb": "#48280c"
+                    },
+                    "m_Background": null
+                },
+                "m_Alignment": 0,
+                "m_Font": "controls/Kingthings_Calligraphica.ttf",
+                "m_FontStyle": 0,
+                "m_FontSize": 0,
+                "m_Name": "DisabledOutlineText",
+                "m_Margin": {
+                    "m_Bottom": 2,
+                    "m_Left": 2,
+                    "m_Top": 2,
+                    "m_Right": 2
+                },
+                "m_FixedWidth": 0,
+                "m_StretchWidth": 0,
+                "m_Active": {
+                    "m_TextColor": {
+                        "a": 1,
+                        "rgb": "#48280c"
+                    },
+                    "m_Background": null
+                },
+                "m_Normal": {
+                    "m_TextColor": {
+                        "a": 1,
+                        "rgb": "#9d634d"
+                    },
+                    "m_Background": "controls/TextFieldNormal.tga"
+                },
+                "m_OnNormal": {
+                    "m_TextColor": {
+                        "a": 1,
+                        "rgb": "#48280c"
+                    },
+                    "m_Background": null
+                },
+                "m_Overflow": {
+                    "m_Bottom": 0,
+                    "m_Left": 0,
+                    "m_Top": 0,
+                    "m_Right": 0
+                },
+                "m_FixedHeight": 0,
+                "m_ContentOffset": {
+                    "y": 0,
+                    "x": 0
+                },
+                "m_Border": {
+                    "m_Bottom": 8,
+                    "m_Left": 8,
+                    "m_Top": 8,
+                    "m_Right": 8
+                },
+                "m_Focused": {
+                    "m_TextColor": {
+                        "a": 1,
+                        "rgb": "#48280c"
+                    },
+                    "m_Background": null
+                },
+                "m_TextClipping": 0,
+                "m_ImagePosition": 0,
+                "m_StretchHeight": 0
+            },
+            {
+                "m_OnActive": {
+                    "m_TextColor": {
+                        "a": 1,
+                        "rgb": "#48280c"
+                    },
+                    "m_Background": null
+                },
+                "m_Hover": {
+                    "m_TextColor": {
+                        "a": 1,
+                        "rgb": "#48280c"
+                    },
+                    "m_Background": null
+                },
+                "m_WordWrap": 1,
+                "m_Padding": {
+                    "m_Bottom": 0,
+                    "m_Left": 0,
+                    "m_Top": 0,
+                    "m_Right": 0
+                },
+                "m_RichText": 1,
+                "m_OnHover": {
+                    "m_TextColor": {
+                        "a": 1,
+                        "rgb": "#48280c"
+                    },
+                    "m_Background": null
+                },
+                "m_OnFocused": {
+                    "m_TextColor": {
+                        "a": 1,
+                        "rgb": "#48280c"
+                    },
+                    "m_Background": null
+                },
+                "m_Alignment": 0,
+                "m_Font": "controls/Kingthings_Calligraphica_Light.ttf",
+                "m_FontStyle": 1,
+                "m_FontSize": 0,
+                "m_Name": "BoldText",
+                "m_Margin": {
+                    "m_Bottom": 2,
+                    "m_Left": 2,
+                    "m_Top": 2,
+                    "m_Right": 2
+                },
+                "m_FixedWidth": 0,
+                "m_StretchWidth": 0,
+                "m_Active": {
+                    "m_TextColor": {
+                        "a": 1,
+                        "rgb": "#48280c"
+                    },
+                    "m_Background": null
+                },
+                "m_Normal": {
+                    "m_TextColor": {
+                        "a": 1,
+                        "rgb": "#48280c"
+                    },
+                    "m_Background": null
+                },
+                "m_OnNormal": {
+                    "m_TextColor": {
+                        "a": 1,
+                        "rgb": "#48280c"
+                    },
+                    "m_Background": null
+                },
+                "m_Overflow": {
+                    "m_Bottom": 0,
+                    "m_Left": 0,
+                    "m_Top": 0,
+                    "m_Right": 0
+                },
+                "m_FixedHeight": 0,
+                "m_ContentOffset": {
+                    "y": 0,
+                    "x": 0
+                },
+                "m_Border": {
+                    "m_Bottom": 0,
+                    "m_Left": 0,
+                    "m_Top": 0,
+                    "m_Right": 0
+                },
+                "m_Focused": {
+                    "m_TextColor": {
+                        "a": 1,
+                        "rgb": "#48280c"
+                    },
+                    "m_Background": null
+                },
+                "m_TextClipping": 0,
+                "m_ImagePosition": 0,
+                "m_StretchHeight": 0
+            },
+            {
+                "m_OnActive": {
+                    "m_TextColor": {
+                        "a": 1,
+                        "rgb": "#48280c"
+                    },
+                    "m_Background": null
+                },
+                "m_Hover": {
+                    "m_TextColor": {
+                        "a": 1,
+                        "rgb": "#48280c"
+                    },
+                    "m_Background": null
+                },
+                "m_WordWrap": 1,
+                "m_Padding": {
+                    "m_Bottom": 0,
+                    "m_Left": 0,
+                    "m_Top": 0,
+                    "m_Right": 0
+                },
+                "m_RichText": 1,
+                "m_OnHover": {
+                    "m_TextColor": {
+                        "a": 1,
+                        "rgb": "#48280c"
+                    },
+                    "m_Background": null
+                },
+                "m_OnFocused": {
+                    "m_TextColor": {
+                        "a": 1,
+                        "rgb": "#48280c"
+                    },
+                    "m_Background": null
+                },
+                "m_Alignment": 0,
+                "m_Font": null,
+                "m_FontStyle": 0,
+                "m_FontSize": 0,
+                "m_Name": "DisabledText",
+                "m_Margin": {
+                    "m_Bottom": 2,
+                    "m_Left": 2,
+                    "m_Top": 2,
+                    "m_Right": 2
+                },
+                "m_FixedWidth": 0,
+                "m_StretchWidth": 0,
+                "m_Active": {
+                    "m_TextColor": {
+                        "a": 1,
+                        "rgb": "#48280c"
+                    },
+                    "m_Background": null
+                },
+                "m_Normal": {
+                    "m_TextColor": {
+                        "a": 1,
+                        "rgb": "#9e634d"
+                    },
+                    "m_Background": null
+                },
+                "m_OnNormal": {
+                    "m_TextColor": {
+                        "a": 1,
+                        "rgb": "#48280c"
+                    },
+                    "m_Background": null
+                },
+                "m_Overflow": {
+                    "m_Bottom": 0,
+                    "m_Left": 0,
+                    "m_Top": 0,
+                    "m_Right": 0
+                },
+                "m_FixedHeight": 0,
+                "m_ContentOffset": {
+                    "y": 0,
+                    "x": 0
+                },
+                "m_Border": {
+                    "m_Bottom": 0,
+                    "m_Left": 0,
+                    "m_Top": 0,
+                    "m_Right": 0
+                },
+                "m_Focused": {
+                    "m_TextColor": {
+                        "a": 1,
+                        "rgb": "#48280c"
+                    },
+                    "m_Background": null
+                },
+                "m_TextClipping": 0,
+                "m_ImagePosition": 0,
+                "m_StretchHeight": 0
+            },
+            {
+                "m_OnActive": {
+                    "m_TextColor": {
+                        "a": 1,
+                        "rgb": "#48280c"
+                    },
+                    "m_Background": null
+                },
+                "m_Hover": {
+                    "m_TextColor": {
+                        "a": 1,
+                        "rgb": "#48280c"
+                    },
+                    "m_Background": null
+                },
+                "m_WordWrap": 1,
+                "m_Padding": {
+                    "m_Bottom": 0,
+                    "m_Left": 0,
+                    "m_Top": 0,
+                    "m_Right": 0
+                },
+                "m_RichText": 1,
+                "m_OnHover": {
+                    "m_TextColor": {
+                        "a": 1,
+                        "rgb": "#48280c"
+                    },
+                    "m_Background": null
+                },
+                "m_OnFocused": {
+                    "m_TextColor": {
+                        "a": 1,
+                        "rgb": "#48280c"
+                    },
+                    "m_Background": null
+                },
+                "m_Alignment": 0,
+                "m_Font": "controls/Kingthings_Calligraphica_Light.ttf",
+                "m_FontStyle": 1,
+                "m_FontSize": 0,
+                "m_Name": "CursedText",
+                "m_Margin": {
+                    "m_Bottom": 2,
+                    "m_Left": 2,
+                    "m_Top": 2,
+                    "m_Right": 2
+                },
+                "m_FixedWidth": 0,
+                "m_StretchWidth": 0,
+                "m_Active": {
+                    "m_TextColor": {
+                        "a": 1,
+                        "rgb": "#48280c"
+                    },
+                    "m_Background": null
+                },
+                "m_Normal": {
+                    "m_TextColor": {
+                        "a": 1,
+                        "rgb": "#b11a00"
+                    },
+                    "m_Background": null
+                },
+                "m_OnNormal": {
+                    "m_TextColor": {
+                        "a": 1,
+                        "rgb": "#48280c"
+                    },
+                    "m_Background": null
+                },
+                "m_Overflow": {
+                    "m_Bottom": 0,
+                    "m_Left": 0,
+                    "m_Top": 0,
+                    "m_Right": 0
+                },
+                "m_FixedHeight": 0,
+                "m_ContentOffset": {
+                    "y": 0,
+                    "x": 0
+                },
+                "m_Border": {
+                    "m_Bottom": 0,
+                    "m_Left": 0,
+                    "m_Top": 0,
+                    "m_Right": 0
+                },
+                "m_Focused": {
+                    "m_TextColor": {
+                        "a": 1,
+                        "rgb": "#48280c"
+                    },
+                    "m_Background": null
+                },
+                "m_TextClipping": 0,
+                "m_ImagePosition": 0,
+                "m_StretchHeight": 0
+            },
+            {
+                "m_OnActive": {
+                    "m_TextColor": {
+                        "a": 1,
+                        "rgb": "#48280c"
+                    },
+                    "m_Background": null
+                },
+                "m_Hover": {
+                    "m_TextColor": {
+                        "a": 1,
+                        "rgb": "#48280c"
+                    },
+                    "m_Background": null
+                },
+                "m_WordWrap": 1,
+                "m_Padding": {
+                    "m_Bottom": 0,
+                    "m_Left": 0,
+                    "m_Top": 0,
+                    "m_Right": 0
+                },
+                "m_RichText": 1,
+                "m_OnHover": {
+                    "m_TextColor": {
+                        "a": 1,
+                        "rgb": "#48280c"
+                    },
+                    "m_Background": null
+                },
+                "m_OnFocused": {
+                    "m_TextColor": {
+                        "a": 1,
+                        "rgb": "#48280c"
+                    },
+                    "m_Background": null
+                },
+                "m_Alignment": 0,
+                "m_Font": "controls/Kingthings_Calligraphica_Light.ttf",
+                "m_FontStyle": 1,
+                "m_FontSize": 0,
+                "m_Name": "LegendaryText",
+                "m_Margin": {
+                    "m_Bottom": 2,
+                    "m_Left": 2,
+                    "m_Top": 2,
+                    "m_Right": 2
+                },
+                "m_FixedWidth": 0,
+                "m_StretchWidth": 0,
+                "m_Active": {
+                    "m_TextColor": {
+                        "a": 1,
+                        "rgb": "#48280c"
+                    },
+                    "m_Background": null
+                },
+                "m_Normal": {
+                    "m_TextColor": {
+                        "a": 1,
+                        "rgb": "#0a4e78"
+                    },
+                    "m_Background": null
+                },
+                "m_OnNormal": {
+                    "m_TextColor": {
+                        "a": 1,
+                        "rgb": "#48280c"
+                    },
+                    "m_Background": null
+                },
+                "m_Overflow": {
+                    "m_Bottom": 0,
+                    "m_Left": 0,
+                    "m_Top": 0,
+                    "m_Right": 0
+                },
+                "m_FixedHeight": 0,
+                "m_ContentOffset": {
+                    "y": 0,
+                    "x": 0
+                },
+                "m_Border": {
+                    "m_Bottom": 0,
+                    "m_Left": 0,
+                    "m_Top": 0,
+                    "m_Right": 0
+                },
+                "m_Focused": {
+                    "m_TextColor": {
+                        "a": 1,
+                        "rgb": "#48280c"
+                    },
+                    "m_Background": null
+                },
+                "m_TextClipping": 0,
+                "m_ImagePosition": 0,
+                "m_StretchHeight": 0
+            },
+            {
+                "m_OnActive": {
+                    "m_TextColor": {
+                        "a": 1,
+                        "rgb": "#48280c"
+                    },
+                    "m_Background": null
+                },
+                "m_Hover": {
+                    "m_TextColor": {
+                        "a": 1,
+                        "rgb": "#48280c"
+                    },
+                    "m_Background": null
+                },
+                "m_WordWrap": 0,
+                "m_Padding": {
+                    "m_Bottom": 0,
+                    "m_Left": 0,
+                    "m_Top": 0,
+                    "m_Right": 0
+                },
+                "m_RichText": 1,
+                "m_OnHover": {
+                    "m_TextColor": {
+                        "a": 1,
+                        "rgb": "#48280c"
+                    },
+                    "m_Background": null
+                },
+                "m_OnFocused": {
+                    "m_TextColor": {
+                        "a": 1,
+                        "rgb": "#48280c"
+                    },
+                    "m_Background": null
+                },
+                "m_Alignment": 0,
+                "m_Font": null,
+                "m_FontStyle": 0,
+                "m_FontSize": 0,
+                "m_Name": "Divider",
+                "m_Margin": {
+                    "m_Bottom": 2,
+                    "m_Left": 2,
+                    "m_Top": 2,
+                    "m_Right": 2
+                },
+                "m_FixedWidth": 0,
+                "m_StretchWidth": 1,
+                "m_Active": {
+                    "m_TextColor": {
+                        "a": 1,
+                        "rgb": "#48280c"
+                    },
+                    "m_Background": null
+                },
+                "m_Normal": {
+                    "m_TextColor": {
+                        "a": 1,
+                        "rgb": "#48280c"
+                    },
+                    "m_Background": "controls/Divider.tga"
+                },
+                "m_OnNormal": {
+                    "m_TextColor": {
+                        "a": 1,
+                        "rgb": "#48280c"
+                    },
+                    "m_Background": null
+                },
+                "m_Overflow": {
+                    "m_Bottom": 0,
+                    "m_Left": 0,
+                    "m_Top": 0,
+                    "m_Right": 0
+                },
+                "m_FixedHeight": 10,
+                "m_ContentOffset": {
+                    "y": 0,
+                    "x": 0
+                },
+                "m_Border": {
+                    "m_Bottom": 0,
+                    "m_Left": 10,
+                    "m_Top": 0,
+                    "m_Right": 10
+                },
+                "m_Focused": {
+                    "m_TextColor": {
+                        "a": 1,
+                        "rgb": "#48280c"
+                    },
+                    "m_Background": null
+                },
+                "m_TextClipping": 0,
+                "m_ImagePosition": 0,
+                "m_StretchHeight": 0
+            },
+            {
+                "m_OnActive": {
+                    "m_TextColor": {
+                        "a": 1,
+                        "rgb": "#48280c"
+                    },
+                    "m_Background": null
+                },
+                "m_Hover": {
+                    "m_TextColor": {
+                        "a": 1,
+                        "rgb": "#48280c"
+                    },
+                    "m_Background": null
+                },
+                "m_WordWrap": 0,
+                "m_Padding": {
+                    "m_Bottom": 0,
+                    "m_Left": 0,
+                    "m_Top": 0,
+                    "m_Right": 0
+                },
+                "m_RichText": 1,
+                "m_OnHover": {
+                    "m_TextColor": {
+                        "a": 1,
+                        "rgb": "#48280c"
+                    },
+                    "m_Background": null
+                },
+                "m_OnFocused": {
+                    "m_TextColor": {
+                        "a": 1,
+                        "rgb": "#48280c"
+                    },
+                    "m_Background": null
+                },
+                "m_Alignment": 0,
+                "m_Font": null,
+                "m_FontStyle": 0,
+                "m_FontSize": 0,
+                "m_Name": "SpikeLeft",
+                "m_Margin": {
+                    "m_Bottom": 2,
+                    "m_Left": 0,
+                    "m_Top": 2,
+                    "m_Right": 0
+                },
+                "m_FixedWidth": 29,
+                "m_StretchWidth": 0,
+                "m_Active": {
+                    "m_TextColor": {
+                        "a": 1,
+                        "rgb": "#48280c"
+                    },
+                    "m_Background": null
+                },
+                "m_Normal": {
+                    "m_TextColor": {
+                        "a": 1,
+                        "rgb": "#48280c"
+                    },
+                    "m_Background": "controls/spikeLeft.tga"
+                },
+                "m_OnNormal": {
+                    "m_TextColor": {
+                        "a": 1,
+                        "rgb": "#48280c"
+                    },
+                    "m_Background": null
+                },
+                "m_Overflow": {
+                    "m_Bottom": 0,
+                    "m_Left": 0,
+                    "m_Top": 0,
+                    "m_Right": 0
+                },
+                "m_FixedHeight": 44,
+                "m_ContentOffset": {
+                    "y": 0,
+                    "x": 0
+                },
+                "m_Border": {
+                    "m_Bottom": 0,
+                    "m_Left": 0,
+                    "m_Top": 0,
+                    "m_Right": 0
+                },
+                "m_Focused": {
+                    "m_TextColor": {
+                        "a": 1,
+                        "rgb": "#48280c"
+                    },
+                    "m_Background": null
+                },
+                "m_TextClipping": 0,
+                "m_ImagePosition": 0,
+                "m_StretchHeight": 0
+            },
+            {
+                "m_OnActive": {
+                    "m_TextColor": {
+                        "a": 1,
+                        "rgb": "#48280c"
+                    },
+                    "m_Background": null
+                },
+                "m_Hover": {
+                    "m_TextColor": {
+                        "a": 1,
+                        "rgb": "#48280c"
+                    },
+                    "m_Background": null
+                },
+                "m_WordWrap": 0,
+                "m_Padding": {
+                    "m_Bottom": 0,
+                    "m_Left": 0,
+                    "m_Top": 0,
+                    "m_Right": 0
+                },
+                "m_RichText": 1,
+                "m_OnHover": {
+                    "m_TextColor": {
+                        "a": 1,
+                        "rgb": "#48280c"
+                    },
+                    "m_Background": null
+                },
+                "m_OnFocused": {
+                    "m_TextColor": {
+                        "a": 1,
+                        "rgb": "#48280c"
+                    },
+                    "m_Background": null
+                },
+                "m_Alignment": 0,
+                "m_Font": null,
+                "m_FontStyle": 0,
+                "m_FontSize": 0,
+                "m_Name": "SpikeMid",
+                "m_Margin": {
+                    "m_Bottom": 2,
+                    "m_Left": 0,
+                    "m_Top": 2,
+                    "m_Right": 0
+                },
+                "m_FixedWidth": 22,
+                "m_StretchWidth": 0,
+                "m_Active": {
+                    "m_TextColor": {
+                        "a": 1,
+                        "rgb": "#48280c"
+                    },
+                    "m_Background": null
+                },
+                "m_Normal": {
+                    "m_TextColor": {
+                        "a": 1,
+                        "rgb": "#48280c"
+                    },
+                    "m_Background": "controls/spikeMid.tga"
+                },
+                "m_OnNormal": {
+                    "m_TextColor": {
+                        "a": 1,
+                        "rgb": "#48280c"
+                    },
+                    "m_Background": null
+                },
+                "m_Overflow": {
+                    "m_Bottom": 0,
+                    "m_Left": 0,
+                    "m_Top": 0,
+                    "m_Right": 0
+                },
+                "m_FixedHeight": 44,
+                "m_ContentOffset": {
+                    "y": 0,
+                    "x": 0
+                },
+                "m_Border": {
+                    "m_Bottom": 0,
+                    "m_Left": 0,
+                    "m_Top": 0,
+                    "m_Right": 0
+                },
+                "m_Focused": {
+                    "m_TextColor": {
+                        "a": 1,
+                        "rgb": "#48280c"
+                    },
+                    "m_Background": null
+                },
+                "m_TextClipping": 0,
+                "m_ImagePosition": 0,
+                "m_StretchHeight": 0
+            },
+            {
+                "m_OnActive": {
+                    "m_TextColor": {
+                        "a": 1,
+                        "rgb": "#48280c"
+                    },
+                    "m_Background": null
+                },
+                "m_Hover": {
+                    "m_TextColor": {
+                        "a": 1,
+                        "rgb": "#48280c"
+                    },
+                    "m_Background": null
+                },
+                "m_WordWrap": 0,
+                "m_Padding": {
+                    "m_Bottom": 0,
+                    "m_Left": 0,
+                    "m_Top": 0,
+                    "m_Right": 0
+                },
+                "m_RichText": 1,
+                "m_OnHover": {
+                    "m_TextColor": {
+                        "a": 1,
+                        "rgb": "#48280c"
+                    },
+                    "m_Background": null
+                },
+                "m_OnFocused": {
+                    "m_TextColor": {
+                        "a": 1,
+                        "rgb": "#48280c"
+                    },
+                    "m_Background": null
+                },
+                "m_Alignment": 0,
+                "m_Font": null,
+                "m_FontStyle": 0,
+                "m_FontSize": 0,
+                "m_Name": "SpikeRight",
+                "m_Margin": {
+                    "m_Bottom": 2,
+                    "m_Left": 0,
+                    "m_Top": 2,
+                    "m_Right": 0
+                },
+                "m_FixedWidth": 29,
+                "m_StretchWidth": 0,
+                "m_Active": {
+                    "m_TextColor": {
+                        "a": 1,
+                        "rgb": "#48280c"
+                    },
+                    "m_Background": null
+                },
+                "m_Normal": {
+                    "m_TextColor": {
+                        "a": 1,
+                        "rgb": "#48280c"
+                    },
+                    "m_Background": "controls/spikeRight.tga"
+                },
+                "m_OnNormal": {
+                    "m_TextColor": {
+                        "a": 1,
+                        "rgb": "#48280c"
+                    },
+                    "m_Background": null
+                },
+                "m_Overflow": {
+                    "m_Bottom": 0,
+                    "m_Left": 0,
+                    "m_Top": 0,
+                    "m_Right": 0
+                },
+                "m_FixedHeight": 44,
+                "m_ContentOffset": {
+                    "y": 0,
+                    "x": 0
+                },
+                "m_Border": {
+                    "m_Bottom": 0,
+                    "m_Left": 0,
+                    "m_Top": 0,
+                    "m_Right": 0
+                },
+                "m_Focused": {
+                    "m_TextColor": {
+                        "a": 1,
+                        "rgb": "#48280c"
+                    },
+                    "m_Background": null
+                },
+                "m_TextClipping": 0,
+                "m_ImagePosition": 0,
+                "m_StretchHeight": 0
+            },
+            {
+                "m_OnActive": {
+                    "m_TextColor": {
+                        "a": 1,
+                        "rgb": "#48280c"
+                    },
+                    "m_Background": null
+                },
+                "m_Hover": {
+                    "m_TextColor": {
+                        "a": 1,
+                        "rgb": "#48280c"
+                    },
+                    "m_Background": null
+                },
+                "m_WordWrap": 0,
+                "m_Padding": {
+                    "m_Bottom": 0,
+                    "m_Left": 0,
+                    "m_Top": 0,
+                    "m_Right": 0
+                },
+                "m_RichText": 1,
+                "m_OnHover": {
+                    "m_TextColor": {
+                        "a": 1,
+                        "rgb": "#48280c"
+                    },
+                    "m_Background": null
+                },
+                "m_OnFocused": {
+                    "m_TextColor": {
+                        "a": 1,
+                        "rgb": "#48280c"
+                    },
+                    "m_Background": null
+                },
+                "m_Alignment": 0,
+                "m_Font": null,
+                "m_FontStyle": 0,
+                "m_FontSize": 0,
+                "m_Name": "Spike",
+                "m_Margin": {
+                    "m_Bottom": 2,
+                    "m_Left": 2,
+                    "m_Top": 2,
+                    "m_Right": 2
+                },
+                "m_FixedWidth": 36,
+                "m_StretchWidth": 0,
+                "m_Active": {
+                    "m_TextColor": {
+                        "a": 1,
+                        "rgb": "#48280c"
+                    },
+                    "m_Background": null
+                },
+                "m_Normal": {
+                    "m_TextColor": {
+                        "a": 1,
+                        "rgb": "#48280c"
+                    },
+                    "m_Background": "controls/spike.tga"
+                },
+                "m_OnNormal": {
+                    "m_TextColor": {
+                        "a": 1,
+                        "rgb": "#48280c"
+                    },
+                    "m_Background": null
+                },
+                "m_Overflow": {
+                    "m_Bottom": 0,
+                    "m_Left": 0,
+                    "m_Top": 0,
+                    "m_Right": 0
+                },
+                "m_FixedHeight": 44,
+                "m_ContentOffset": {
+                    "y": 0,
+                    "x": 0
+                },
+                "m_Border": {
+                    "m_Bottom": 0,
+                    "m_Left": 0,
+                    "m_Top": 0,
+                    "m_Right": 0
+                },
+                "m_Focused": {
+                    "m_TextColor": {
+                        "a": 1,
+                        "rgb": "#48280c"
+                    },
+                    "m_Background": null
+                },
+                "m_TextClipping": 0,
+                "m_ImagePosition": 0,
+                "m_StretchHeight": 0
+            },
+            {
+                "m_OnActive": {
+                    "m_TextColor": {
+                        "a": 1,
+                        "rgb": "#48280c"
+                    },
+                    "m_Background": null
+                },
+                "m_Hover": {
+                    "m_TextColor": {
+                        "a": 1,
+                        "rgb": "#48280c"
+                    },
+                    "m_Background": null
+                },
+                "m_WordWrap": 0,
+                "m_Padding": {
+                    "m_Bottom": 0,
+                    "m_Left": 0,
+                    "m_Top": 0,
+                    "m_Right": 0
+                },
+                "m_RichText": 1,
+                "m_OnHover": {
+                    "m_TextColor": {
+                        "a": 1,
+                        "rgb": "#48280c"
+                    },
+                    "m_Background": null
+                },
+                "m_OnFocused": {
+                    "m_TextColor": {
+                        "a": 1,
+                        "rgb": "#48280c"
+                    },
+                    "m_Background": null
+                },
+                "m_Alignment": 0,
+                "m_Font": null,
+                "m_FontStyle": 0,
+                "m_FontSize": 0,
+                "m_Name": "RibbonBlue",
+                "m_Margin": {
+                    "m_Bottom": 2,
+                    "m_Left": 2,
+                    "m_Top": 2,
+                    "m_Right": 2
+                },
+                "m_FixedWidth": 49,
+                "m_StretchWidth": 0,
+                "m_Active": {
+                    "m_TextColor": {
+                        "a": 1,
+                        "rgb": "#48280c"
+                    },
+                    "m_Background": null
+                },
+                "m_Normal": {
+                    "m_TextColor": {
+                        "a": 1,
+                        "rgb": "#48280c"
+                    },
+                    "m_Background": "controls/RibbonBlue.tga"
+                },
+                "m_OnNormal": {
+                    "m_TextColor": {
+                        "a": 1,
+                        "rgb": "#48280c"
+                    },
+                    "m_Background": null
+                },
+                "m_Overflow": {
+                    "m_Bottom": 0,
+                    "m_Left": 0,
+                    "m_Top": 0,
+                    "m_Right": 0
+                },
+                "m_FixedHeight": 77,
+                "m_ContentOffset": {
+                    "y": 0,
+                    "x": 0
+                },
+                "m_Border": {
+                    "m_Bottom": 0,
+                    "m_Left": 0,
+                    "m_Top": 0,
+                    "m_Right": 0
+                },
+                "m_Focused": {
+                    "m_TextColor": {
+                        "a": 1,
+                        "rgb": "#48280c"
+                    },
+                    "m_Background": null
+                },
+                "m_TextClipping": 0,
+                "m_ImagePosition": 0,
+                "m_StretchHeight": 0
+            },
+            {
+                "m_OnActive": {
+                    "m_TextColor": {
+                        "a": 1,
+                        "rgb": "#48280c"
+                    },
+                    "m_Background": null
+                },
+                "m_Hover": {
+                    "m_TextColor": {
+                        "a": 1,
+                        "rgb": "#48280c"
+                    },
+                    "m_Background": null
+                },
+                "m_WordWrap": 0,
+                "m_Padding": {
+                    "m_Bottom": 0,
+                    "m_Left": 0,
+                    "m_Top": 0,
+                    "m_Right": 0
+                },
+                "m_RichText": 1,
+                "m_OnHover": {
+                    "m_TextColor": {
+                        "a": 1,
+                        "rgb": "#48280c"
+                    },
+                    "m_Background": null
+                },
+                "m_OnFocused": {
+                    "m_TextColor": {
+                        "a": 1,
+                        "rgb": "#48280c"
+                    },
+                    "m_Background": null
+                },
+                "m_Alignment": 0,
+                "m_Font": null,
+                "m_FontStyle": 0,
+                "m_FontSize": 0,
+                "m_Name": "RibbonRed",
+                "m_Margin": {
+                    "m_Bottom": 2,
+                    "m_Left": 2,
+                    "m_Top": 2,
+                    "m_Right": 2
+                },
+                "m_FixedWidth": 49,
+                "m_StretchWidth": 0,
+                "m_Active": {
+                    "m_TextColor": {
+                        "a": 1,
+                        "rgb": "#48280c"
+                    },
+                    "m_Background": null
+                },
+                "m_Normal": {
+                    "m_TextColor": {
+                        "a": 1,
+                        "rgb": "#48280c"
+                    },
+                    "m_Background": "controls/RibbonRed.tga"
+                },
+                "m_OnNormal": {
+                    "m_TextColor": {
+                        "a": 1,
+                        "rgb": "#48280c"
+                    },
+                    "m_Background": null
+                },
+                "m_Overflow": {
+                    "m_Bottom": 0,
+                    "m_Left": 0,
+                    "m_Top": 0,
+                    "m_Right": 0
+                },
+                "m_FixedHeight": 77,
+                "m_ContentOffset": {
+                    "y": 0,
+                    "x": 0
+                },
+                "m_Border": {
+                    "m_Bottom": 0,
+                    "m_Left": 0,
+                    "m_Top": 0,
+                    "m_Right": 0
+                },
+                "m_Focused": {
+                    "m_TextColor": {
+                        "a": 1,
+                        "rgb": "#48280c"
+                    },
+                    "m_Background": null
+                },
+                "m_TextClipping": 0,
+                "m_ImagePosition": 0,
+                "m_StretchHeight": 0
+            },
+            {
+                "m_OnActive": {
+                    "m_TextColor": {
+                        "a": 1,
+                        "rgb": "#48280c"
+                    },
+                    "m_Background": null
+                },
+                "m_Hover": {
+                    "m_TextColor": {
+                        "a": 1,
+                        "rgb": "#48280c"
+                    },
+                    "m_Background": null
+                },
+                "m_WordWrap": 0,
+                "m_Padding": {
+                    "m_Bottom": 0,
+                    "m_Left": 0,
+                    "m_Top": 0,
+                    "m_Right": 0
+                },
+                "m_RichText": 1,
+                "m_OnHover": {
+                    "m_TextColor": {
+                        "a": 1,
+                        "rgb": "#48280c"
+                    },
+                    "m_Background": null
+                },
+                "m_OnFocused": {
+                    "m_TextColor": {
+                        "a": 1,
+                        "rgb": "#48280c"
+                    },
+                    "m_Background": null
+                },
+                "m_Alignment": 0,
+                "m_Font": null,
+                "m_FontStyle": 0,
+                "m_FontSize": 0,
+                "m_Name": "RibbonGreen",
+                "m_Margin": {
+                    "m_Bottom": 2,
+                    "m_Left": 2,
+                    "m_Top": 2,
+                    "m_Right": 2
+                },
+                "m_FixedWidth": 49,
+                "m_StretchWidth": 0,
+                "m_Active": {
+                    "m_TextColor": {
+                        "a": 1,
+                        "rgb": "#48280c"
+                    },
+                    "m_Background": null
+                },
+                "m_Normal": {
+                    "m_TextColor": {
+                        "a": 1,
+                        "rgb": "#48280c"
+                    },
+                    "m_Background": "controls/RibbonGreen.tga"
+                },
+                "m_OnNormal": {
+                    "m_TextColor": {
+                        "a": 1,
+                        "rgb": "#48280c"
+                    },
+                    "m_Background": null
+                },
+                "m_Overflow": {
+                    "m_Bottom": 0,
+                    "m_Left": 0,
+                    "m_Top": 0,
+                    "m_Right": 0
+                },
+                "m_FixedHeight": 77,
+                "m_ContentOffset": {
+                    "y": 0,
+                    "x": 0
+                },
+                "m_Border": {
+                    "m_Bottom": 0,
+                    "m_Left": 0,
+                    "m_Top": 0,
+                    "m_Right": 0
+                },
+                "m_Focused": {
+                    "m_TextColor": {
+                        "a": 1,
+                        "rgb": "#48280c"
+                    },
+                    "m_Background": null
+                },
+                "m_TextClipping": 0,
+                "m_ImagePosition": 0,
+                "m_StretchHeight": 0
+            },
+            {
+                "m_OnActive": {
+                    "m_TextColor": {
+                        "a": 1,
+                        "rgb": "#48280c"
+                    },
+                    "m_Background": null
+                },
+                "m_Hover": {
+                    "m_TextColor": {
+                        "a": 1,
+                        "rgb": "#48280c"
+                    },
+                    "m_Background": null
+                },
+                "m_WordWrap": 0,
+                "m_Padding": {
+                    "m_Bottom": 0,
+                    "m_Left": 0,
+                    "m_Top": 0,
+                    "m_Right": 0
+                },
+                "m_RichText": 1,
+                "m_OnHover": {
+                    "m_TextColor": {
+                        "a": 1,
+                        "rgb": "#48280c"
+                    },
+                    "m_Background": null
+                },
+                "m_OnFocused": {
+                    "m_TextColor": {
+                        "a": 1,
+                        "rgb": "#48280c"
+                    },
+                    "m_Background": null
+                },
+                "m_Alignment": 0,
+                "m_Font": null,
+                "m_FontStyle": 0,
+                "m_FontSize": 0,
+                "m_Name": "RibbonYellow",
+                "m_Margin": {
+                    "m_Bottom": 2,
+                    "m_Left": 2,
+                    "m_Top": 2,
+                    "m_Right": 2
+                },
+                "m_FixedWidth": 49,
+                "m_StretchWidth": 0,
+                "m_Active": {
+                    "m_TextColor": {
+                        "a": 1,
+                        "rgb": "#48280c"
+                    },
+                    "m_Background": null
+                },
+                "m_Normal": {
+                    "m_TextColor": {
+                        "a": 1,
+                        "rgb": "#48280c"
+                    },
+                    "m_Background": "controls/RibbonYellow.tga"
+                },
+                "m_OnNormal": {
+                    "m_TextColor": {
+                        "a": 1,
+                        "rgb": "#48280c"
+                    },
+                    "m_Background": null
+                },
+                "m_Overflow": {
+                    "m_Bottom": 0,
+                    "m_Left": 0,
+                    "m_Top": 0,
+                    "m_Right": 0
+                },
+                "m_FixedHeight": 77,
+                "m_ContentOffset": {
+                    "y": 0,
+                    "x": 0
+                },
+                "m_Border": {
+                    "m_Bottom": 0,
+                    "m_Left": 0,
+                    "m_Top": 0,
+                    "m_Right": 0
+                },
+                "m_Focused": {
+                    "m_TextColor": {
+                        "a": 1,
+                        "rgb": "#48280c"
+                    },
+                    "m_Background": null
+                },
+                "m_TextClipping": 0,
+                "m_ImagePosition": 0,
+                "m_StretchHeight": 0
+            },
+            {
+                "m_OnActive": {
+                    "m_TextColor": {
+                        "a": 1,
+                        "rgb": "#48280c"
+                    },
+                    "m_Background": null
+                },
+                "m_Hover": {
+                    "m_TextColor": {
+                        "a": 1,
+                        "rgb": "#48280c"
+                    },
+                    "m_Background": null
+                },
+                "m_WordWrap": 0,
+                "m_Padding": {
+                    "m_Bottom": 0,
+                    "m_Left": 14,
+                    "m_Top": 0,
+                    "m_Right": 14
+                },
+                "m_RichText": 1,
+                "m_OnHover": {
+                    "m_TextColor": {
+                        "a": 1,
+                        "rgb": "#48280c"
+                    },
+                    "m_Background": null
+                },
+                "m_OnFocused": {
+                    "m_TextColor": {
+                        "a": 1,
+                        "rgb": "#48280c"
+                    },
+                    "m_Background": null
+                },
+                "m_Alignment": 0,
+                "m_Font": "controls/Kingthings_Calligraphica_Italic.ttf",
+                "m_FontStyle": 0,
+                "m_FontSize": 0,
+                "m_Name": "SingleQuotes",
+                "m_Margin": {
+                    "m_Bottom": 2,
+                    "m_Left": 2,
+                    "m_Top": 2,
+                    "m_Right": 2
+                },
+                "m_FixedWidth": 0,
+                "m_StretchWidth": 0,
+                "m_Active": {
+                    "m_TextColor": {
+                        "a": 1,
+                        "rgb": "#48280c"
+                    },
+                    "m_Background": null
+                },
+                "m_Normal": {
+                    "m_TextColor": {
+                        "a": 1,
+                        "rgb": "#48280c"
+                    },
+                    "m_Background": "controls/singleQuotes.tga"
+                },
+                "m_OnNormal": {
+                    "m_TextColor": {
+                        "a": 1,
+                        "rgb": "#48280c"
+                    },
+                    "m_Background": null
+                },
+                "m_Overflow": {
+                    "m_Bottom": 0,
+                    "m_Left": 0,
+                    "m_Top": 0,
+                    "m_Right": 0
+                },
+                "m_FixedHeight": 0,
+                "m_ContentOffset": {
+                    "y": 0,
+                    "x": 0
+                },
+                "m_Border": {
+                    "m_Bottom": 8,
+                    "m_Left": 14,
+                    "m_Top": 8,
+                    "m_Right": 14
+                },
+                "m_Focused": {
+                    "m_TextColor": {
+                        "a": 1,
+                        "rgb": "#48280c"
+                    },
+                    "m_Background": null
+                },
+                "m_TextClipping": 0,
+                "m_ImagePosition": 0,
+                "m_StretchHeight": 0
+            }
+        ],
+        "m_horizontalScrollbarRightButton": {
+            "m_OnActive": {
+                "m_TextColor": {
+                    "a": 1,
+                    "rgb": "#000000"
+                },
+                "m_Background": null
+            },
+            "m_Hover": {
+                "m_TextColor": {
+                    "a": 1,
+                    "rgb": "#000000"
+                },
+                "m_Background": null
+            },
+            "m_WordWrap": 0,
+            "m_Padding": {
+                "m_Bottom": 0,
+                "m_Left": 0,
+                "m_Top": 0,
+                "m_Right": 0
+            },
+            "m_RichText": 1,
+            "m_OnHover": {
+                "m_TextColor": {
+                    "a": 1,
+                    "rgb": "#000000"
+                },
+                "m_Background": null
+            },
+            "m_OnFocused": {
+                "m_TextColor": {
+                    "a": 1,
+                    "rgb": "#000000"
+                },
+                "m_Background": null
+            },
+            "m_Alignment": 0,
+            "m_Font": null,
+            "m_FontStyle": 0,
+            "m_FontSize": 0,
+            "m_Name": "horizontalscrollbarrightbutton",
+            "m_Margin": {
+                "m_Bottom": 0,
+                "m_Left": 0,
+                "m_Top": 0,
+                "m_Right": 0
+            },
+            "m_FixedWidth": 0,
+            "m_StretchWidth": 1,
+            "m_Active": {
+                "m_TextColor": {
+                    "a": 1,
+                    "rgb": "#000000"
+                },
+                "m_Background": null
+            },
+            "m_Normal": {
+                "m_TextColor": {
+                    "a": 1,
+                    "rgb": "#000000"
+                },
+                "m_Background": null
+            },
+            "m_OnNormal": {
+                "m_TextColor": {
+                    "a": 1,
+                    "rgb": "#000000"
+                },
+                "m_Background": null
+            },
+            "m_Overflow": {
+                "m_Bottom": 0,
+                "m_Left": 0,
+                "m_Top": 0,
+                "m_Right": 0
+            },
+            "m_FixedHeight": 0,
+            "m_ContentOffset": {
+                "y": 0,
+                "x": 0
+            },
+            "m_Border": {
+                "m_Bottom": 0,
+                "m_Left": 0,
+                "m_Top": 0,
+                "m_Right": 0
+            },
+            "m_Focused": {
+                "m_TextColor": {
+                    "a": 1,
+                    "rgb": "#000000"
+                },
+                "m_Background": null
+            },
+            "m_TextClipping": 1,
+            "m_ImagePosition": 0,
+            "m_StretchHeight": 0
+        },
+        "m_Name": "NecromancerGUI",
+        "m_Settings": {
+            "m_CursorColor": {
+                "a": 1,
+                "rgb": "#48280c"
+            },
+            "m_DoubleClickSelectsWord": 1,
+            "m_TripleClickSelectsLine": 1,
+            "m_SelectionColor": {
+                "a": 0.470588237,
+                "rgb": "#940202"
+            },
+            "m_CursorFlashSpeed": -1
+        },
+        "m_button": {
+            "m_OnActive": {
+                "m_TextColor": {
+                    "a": 1,
+                    "rgb": "#48280c"
+                },
+                "m_Background": "controls/button.tga"
+            },
+            "m_Hover": {
+                "m_TextColor": {
+                    "a": 1,
+                    "rgb": "#48280c"
+                },
+                "m_Background": "controls/buttonOver.tga"
+            },
+            "m_WordWrap": 0,
+            "m_Padding": {
+                "m_Bottom": 6,
+                "m_Left": 18,
+                "m_Top": 3,
+                "m_Right": 20
+            },
+            "m_RichText": 1,
+            "m_OnHover": {
+                "m_TextColor": {
+                    "a": 1,
+                    "rgb": "#48280c"
+                },
+                "m_Background": "controls/buttonOver.tga"
+            },
+            "m_OnFocused": {
+                "m_TextColor": {
+                    "a": 1,
+                    "rgb": "#48280c"
+                },
+                "m_Background": null
+            },
+            "m_Alignment": 4,
+            "m_Font": null,
+            "m_FontStyle": 0,
+            "m_FontSize": 0,
+            "m_Name": "button",
+            "m_Margin": {
+                "m_Bottom": 2,
+                "m_Left": 2,
+                "m_Top": 2,
+                "m_Right": 2
+            },
+            "m_FixedWidth": 0,
+            "m_StretchWidth": 1,
+            "m_Active": {
+                "m_TextColor": {
+                    "a": 1,
+                    "rgb": "#48280c"
+                },
+                "m_Background": "controls/button.tga"
+            },
+            "m_Normal": {
+                "m_TextColor": {
+                    "a": 1,
+                    "rgb": "#48280c"
+                },
+                "m_Background": "controls/button.tga"
+            },
+            "m_OnNormal": {
+                "m_TextColor": {
+                    "a": 1,
+                    "rgb": "#48280c"
+                },
+                "m_Background": "controls/button.tga"
+            },
+            "m_Overflow": {
+                "m_Bottom": 0,
+                "m_Left": 0,
+                "m_Top": 0,
+                "m_Right": 0
+            },
+            "m_FixedHeight": 0,
+            "m_ContentOffset": {
+                "y": 0,
+                "x": 0
+            },
+            "m_Border": {
+                "m_Bottom": 0,
+                "m_Left": 20,
+                "m_Top": 0,
+                "m_Right": 20
+            },
+            "m_Focused": {
+                "m_TextColor": {
+                    "a": 1,
+                    "rgb": "#48280c"
+                },
+                "m_Background": null
+            },
+            "m_TextClipping": 1,
+            "m_ImagePosition": 0,
+            "m_StretchHeight": 0
+        },
+        "m_verticalSlider": {
+            "m_OnActive": {
+                "m_TextColor": {
+                    "a": 1,
+                    "rgb": "#48280c"
+                },
+                "m_Background": null
+            },
+            "m_Hover": {
+                "m_TextColor": {
+                    "a": 1,
+                    "rgb": "#48280c"
+                },
+                "m_Background": null
+            },
+            "m_WordWrap": 0,
+            "m_Padding": {
+                "m_Bottom": -2,
+                "m_Left": 0,
+                "m_Top": -2,
+                "m_Right": 0
+            },
+            "m_RichText": 1,
+            "m_OnHover": {
+                "m_TextColor": {
+                    "a": 1,
+                    "rgb": "#48280c"
+                },
+                "m_Background": null
+            },
+            "m_OnFocused": {
+                "m_TextColor": {
+                    "a": 1,
+                    "rgb": "#48280c"
+                },
+                "m_Background": null
+            },
+            "m_Alignment": 0,
+            "m_Font": null,
+            "m_FontStyle": 0,
+            "m_FontSize": 0,
+            "m_Name": "verticalslider",
+            "m_Margin": {
+                "m_Bottom": 4,
+                "m_Left": 4,
+                "m_Top": 4,
+                "m_Right": 4
+            },
+            "m_FixedWidth": 12,
+            "m_StretchWidth": 0,
+            "m_Active": {
+                "m_TextColor": {
+                    "a": 1,
+                    "rgb": "#48280c"
+                },
+                "m_Background": null
+            },
+            "m_Normal": {
+                "m_TextColor": {
+                    "a": 1,
+                    "rgb": "#48280c"
+                },
+                "m_Background": "controls/SliderVert.tga"
+            },
+            "m_OnNormal": {
+                "m_TextColor": {
+                    "a": 1,
+                    "rgb": "#48280c"
+                },
+                "m_Background": null
+            },
+            "m_Overflow": {
+                "m_Bottom": 0,
+                "m_Left": 0,
+                "m_Top": 0,
+                "m_Right": 0
+            },
+            "m_FixedHeight": 0,
+            "m_ContentOffset": {
+                "y": 0,
+                "x": 0
+            },
+            "m_Border": {
+                "m_Bottom": 4,
+                "m_Left": 0,
+                "m_Top": 4,
+                "m_Right": 11
+            },
+            "m_Focused": {
+                "m_TextColor": {
+                    "a": 1,
+                    "rgb": "#48280c"
+                },
+                "m_Background": null
+            },
+            "m_TextClipping": 0,
+            "m_ImagePosition": 0,
+            "m_StretchHeight": 1
+        },
+        "m_label": {
+            "m_OnActive": {
+                "m_TextColor": {
+                    "a": 1,
+                    "rgb": "#48280c"
+                },
+                "m_Background": null
+            },
+            "m_Hover": {
+                "m_TextColor": {
+                    "a": 1,
+                    "rgb": "#48280c"
+                },
+                "m_Background": null
+            },
+            "m_WordWrap": 1,
+            "m_Padding": {
+                "m_Bottom": 12,
+                "m_Left": 30,
+                "m_Top": 3,
+                "m_Right": 32
+            },
+            "m_RichText": 1,
+            "m_OnHover": {
+                "m_TextColor": {
+                    "a": 1,
+                    "rgb": "#48280c"
+                },
+                "m_Background": null
+            },
+            "m_OnFocused": {
+                "m_TextColor": {
+                    "a": 1,
+                    "rgb": "#48280c"
+                },
+                "m_Background": null
+            },
+            "m_Alignment": 4,
+            "m_Font": "controls/Kingthings_Calligraphica.ttf",
+            "m_FontStyle": 0,
+            "m_FontSize": 18,
+            "m_Name": "label",
+            "m_Margin": {
+                "m_Bottom": 2,
+                "m_Left": 2,
+                "m_Top": 2,
+                "m_Right": 2
+            },
+            "m_FixedWidth": 0,
+            "m_StretchWidth": 1,
+            "m_Active": {
+                "m_TextColor": {
+                    "a": 1,
+                    "rgb": "#48280c"
+                },
+                "m_Background": null
+            },
+            "m_Normal": {
+                "m_TextColor": {
+                    "a": 1,
+                    "rgb": "#ddffff"
+                },
+                "m_Background": "controls/Label.tga"
+            },
+            "m_OnNormal": {
+                "m_TextColor": {
+                    "a": 1,
+                    "rgb": "#48280c"
+                },
+                "m_Background": null
+            },
+            "m_Overflow": {
+                "m_Bottom": 0,
+                "m_Left": 0,
+                "m_Top": 0,
+                "m_Right": 0
+            },
+            "m_FixedHeight": 0,
+            "m_ContentOffset": {
+                "y": 0,
+                "x": 0
+            },
+            "m_Border": {
+                "m_Bottom": 0,
+                "m_Left": 26,
+                "m_Top": 20,
+                "m_Right": 28
+            },
+            "m_Focused": {
+                "m_TextColor": {
+                    "a": 1,
+                    "rgb": "#48280c"
+                },
+                "m_Background": null
+            },
+            "m_TextClipping": 1,
+            "m_ImagePosition": 0,
+            "m_StretchHeight": 0
+        },
+        "m_horizontalSlider": {
+            "m_OnActive": {
+                "m_TextColor": {
+                    "a": 1,
+                    "rgb": "#48280c"
+                },
+                "m_Background": null
+            },
+            "m_Hover": {
+                "m_TextColor": {
+                    "a": 1,
+                    "rgb": "#48280c"
+                },
+                "m_Background": null
+            },
+            "m_WordWrap": 0,
+            "m_Padding": {
+                "m_Bottom": 0,
+                "m_Left": -2,
+                "m_Top": 0,
+                "m_Right": -2
+            },
+            "m_RichText": 1,
+            "m_OnHover": {
+                "m_TextColor": {
+                    "a": 1,
+                    "rgb": "#48280c"
+                },
+                "m_Background": null
+            },
+            "m_OnFocused": {
+                "m_TextColor": {
+                    "a": 1,
+                    "rgb": "#48280c"
+                },
+                "m_Background": null
+            },
+            "m_Alignment": 0,
+            "m_Font": null,
+            "m_FontStyle": 0,
+            "m_FontSize": 0,
+            "m_Name": "horizontalslider",
+            "m_Margin": {
+                "m_Bottom": 4,
+                "m_Left": 4,
+                "m_Top": 4,
+                "m_Right": 4
+            },
+            "m_FixedWidth": 0,
+            "m_StretchWidth": 1,
+            "m_Active": {
+                "m_TextColor": {
+                    "a": 1,
+                    "rgb": "#48280c"
+                },
+                "m_Background": null
+            },
+            "m_Normal": {
+                "m_TextColor": {
+                    "a": 1,
+                    "rgb": "#48280c"
+                },
+                "m_Background": "controls/SliderHoriz.tga"
+            },
+            "m_OnNormal": {
+                "m_TextColor": {
+                    "a": 1,
+                    "rgb": "#48280c"
+                },
+                "m_Background": null
+            },
+            "m_Overflow": {
+                "m_Bottom": 0,
+                "m_Left": 0,
+                "m_Top": 0,
+                "m_Right": 0
+            },
+            "m_FixedHeight": 12,
+            "m_ContentOffset": {
+                "y": 0,
+                "x": 0
+            },
+            "m_Border": {
+                "m_Bottom": 0,
+                "m_Left": 4,
+                "m_Top": 11,
+                "m_Right": 4
+            },
+            "m_Focused": {
+                "m_TextColor": {
+                    "a": 1,
+                    "rgb": "#48280c"
+                },
+                "m_Background": null
+            },
+            "m_TextClipping": 1,
+            "m_ImagePosition": 2,
+            "m_StretchHeight": 0
+        },
+        "m_verticalSliderThumb": {
+            "m_OnActive": {
+                "m_TextColor": {
+                    "a": 1,
+                    "rgb": "#000000"
+                },
+                "m_Background": null
+            },
+            "m_Hover": {
+                "m_TextColor": {
+                    "a": 1,
+                    "rgb": "#000000"
+                },
+                "m_Background": null
+            },
+            "m_WordWrap": 0,
+            "m_Padding": {
+                "m_Bottom": 0,
+                "m_Left": 0,
+                "m_Top": 0,
+                "m_Right": 0
+            },
+            "m_RichText": 1,
+            "m_OnHover": {
+                "m_TextColor": {
+                    "a": 1,
+                    "rgb": "#000000"
+                },
+                "m_Background": null
+            },
+            "m_OnFocused": {
+                "m_TextColor": {
+                    "a": 1,
+                    "rgb": "#000000"
+                },
+                "m_Background": null
+            },
+            "m_Alignment": 0,
+            "m_Font": null,
+            "m_FontStyle": 0,
+            "m_FontSize": 0,
+            "m_Name": "verticalsliderthumb",
+            "m_Margin": {
+                "m_Bottom": 0,
+                "m_Left": 0,
+                "m_Top": 0,
+                "m_Right": 0
+            },
+            "m_FixedWidth": 21,
+            "m_StretchWidth": 0,
+            "m_Active": {
+                "m_TextColor": {
+                    "a": 1,
+                    "rgb": "#000000"
+                },
+                "m_Background": null
+            },
+            "m_Normal": {
+                "m_TextColor": {
+                    "a": 1,
+                    "rgb": "#000000"
+                },
+                "m_Background": "controls/SliderThumb.tga"
+            },
+            "m_OnNormal": {
+                "m_TextColor": {
+                    "a": 1,
+                    "rgb": "#000000"
+                },
+                "m_Background": null
+            },
+            "m_Overflow": {
+                "m_Bottom": 0,
+                "m_Left": 5,
+                "m_Top": 0,
+                "m_Right": -5
+            },
+            "m_FixedHeight": 21,
+            "m_ContentOffset": {
+                "y": 0,
+                "x": 0
+            },
+            "m_Border": {
+                "m_Bottom": 0,
+                "m_Left": 0,
+                "m_Top": 0,
+                "m_Right": 0
+            },
+            "m_Focused": {
+                "m_TextColor": {
+                    "a": 1,
+                    "rgb": "#000000"
+                },
+                "m_Background": null
+            },
+            "m_TextClipping": 1,
+            "m_ImagePosition": 0,
+            "m_StretchHeight": 0
+        },
+        "m_PrefabInternal": null,
+        "m_horizontalScrollbar": {
+            "m_OnActive": {
+                "m_TextColor": {
+                    "a": 1,
+                    "rgb": "#000000"
+                },
+                "m_Background": null
+            },
+            "m_Hover": {
+                "m_TextColor": {
+                    "a": 1,
+                    "rgb": "#000000"
+                },
+                "m_Background": null
+            },
+            "m_WordWrap": 0,
+            "m_Padding": {
+                "m_Bottom": 0,
+                "m_Left": 4,
+                "m_Top": 0,
+                "m_Right": 4
+            },
+            "m_RichText": 1,
+            "m_OnHover": {
+                "m_TextColor": {
+                    "a": 1,
+                    "rgb": "#000000"
+                },
+                "m_Background": null
+            },
+            "m_OnFocused": {
+                "m_TextColor": {
+                    "a": 1,
+                    "rgb": "#000000"
+                },
+                "m_Background": null
+            },
+            "m_Alignment": 0,
+            "m_Font": null,
+            "m_FontStyle": 0,
+            "m_FontSize": 0,
+            "m_Name": "horizontalscrollbar",
+            "m_Margin": {
+                "m_Bottom": 4,
+                "m_Left": 4,
+                "m_Top": 4,
+                "m_Right": 4
+            },
+            "m_FixedWidth": 0,
+            "m_StretchWidth": 1,
+            "m_Active": {
+                "m_TextColor": {
+                    "a": 1,
+                    "rgb": "#000000"
+                },
+                "m_Background": null
+            },
+            "m_Normal": {
+                "m_TextColor": {
+                    "a": 1,
+                    "rgb": "#000000"
+                },
+                "m_Background": "controls/WinScrollHoriz.tga"
+            },
+            "m_OnNormal": {
+                "m_TextColor": {
+                    "a": 1,
+                    "rgb": "#000000"
+                },
+                "m_Background": null
+            },
+            "m_Overflow": {
+                "m_Bottom": 0,
+                "m_Left": 0,
+                "m_Top": 0,
+                "m_Right": 5
+            },
+            "m_FixedHeight": 16,
+            "m_ContentOffset": {
+                "y": 0,
+                "x": 0
+            },
+            "m_Border": {
+                "m_Bottom": 0,
+                "m_Left": 16,
+                "m_Top": 16,
+                "m_Right": 16
+            },
+            "m_Focused": {
+                "m_TextColor": {
+                    "a": 1,
+                    "rgb": "#000000"
+                },
+                "m_Background": null
+            },
+            "m_TextClipping": 1,
+            "m_ImagePosition": 2,
+            "m_StretchHeight": 0
+        },
+        "m_toggle": {
+            "m_OnActive": {
+                "m_TextColor": {
+                    "a": 1,
+                    "rgb": "#48280c"
+                },
+                "m_Background": null
+            },
+            "m_Hover": {
+                "m_TextColor": {
+                    "a": 1,
+                    "rgb": "#48280c"
+                },
+                "m_Background": null
+            },
+            "m_WordWrap": 0,
+            "m_Padding": {
+                "m_Bottom": 0,
+                "m_Left": 16,
+                "m_Top": 1,
+                "m_Right": 0
+            },
+            "m_RichText": 1,
+            "m_OnHover": {
+                "m_TextColor": {
+                    "a": 1,
+                    "rgb": "#48280c"
+                },
+                "m_Background": null
+            },
+            "m_OnFocused": {
+                "m_TextColor": {
+                    "a": 1,
+                    "rgb": "#48280c"
+                },
+                "m_Background": null
+            },
+            "m_Alignment": 0,
+            "m_Font": null,
+            "m_FontStyle": 0,
+            "m_FontSize": 0,
+            "m_Name": "toggle",
+            "m_Margin": {
+                "m_Bottom": 4,
+                "m_Left": 4,
+                "m_Top": 4,
+                "m_Right": 4
+            },
+            "m_FixedWidth": 0,
+            "m_StretchWidth": 1,
+            "m_Active": {
+                "m_TextColor": {
+                    "a": 1,
+                    "rgb": "#48280c"
+                },
+                "m_Background": null
+            },
+            "m_Normal": {
+                "m_TextColor": {
+                    "a": 1,
+                    "rgb": "#48280c"
+                },
+                "m_Background": "controls/CheckBox.tga"
+            },
+            "m_OnNormal": {
+                "m_TextColor": {
+                    "a": 1,
+                    "rgb": "#48280c"
+                },
+                "m_Background": "controls/Check.tga"
+            },
+            "m_Overflow": {
+                "m_Bottom": 0,
+                "m_Left": -1,
+                "m_Top": -4,
+                "m_Right": 0
+            },
+            "m_FixedHeight": 0,
+            "m_ContentOffset": {
+                "y": 0,
+                "x": 0
+            },
+            "m_Border": {
+                "m_Bottom": 0,
+                "m_Left": 13,
+                "m_Top": 13,
+                "m_Right": 0
+            },
+            "m_Focused": {
+                "m_TextColor": {
+                    "a": 1,
+                    "rgb": "#48280c"
+                },
+                "m_Background": null
+            },
+            "m_TextClipping": 1,
+            "m_ImagePosition": 0,
+            "m_StretchHeight": 0
+        },
+        "m_textArea": {
+            "m_OnActive": {
+                "m_TextColor": {
+                    "a": 1,
+                    "rgb": "#48280c"
+                },
+                "m_Background": "controls/TextFieldSelect.tga"
+            },
+            "m_Hover": {
+                "m_TextColor": {
+                    "a": 1,
+                    "rgb": "#48280c"
+                },
+                "m_Background": null
+            },
+            "m_WordWrap": 1,
+            "m_Padding": {
+                "m_Bottom": 4,
+                "m_Left": 8,
+                "m_Top": 4,
+                "m_Right": 8
+            },
+            "m_RichText": 1,
+            "m_OnHover": {
+                "m_TextColor": {
+                    "a": 1,
+                    "rgb": "#48280c"
+                },
+                "m_Background": null
+            },
+            "m_OnFocused": {
+                "m_TextColor": {
+                    "a": 1,
+                    "rgb": "#000000"
+                },
+                "m_Background": "controls/TextFieldSelect.tga"
+            },
+            "m_Alignment": 0,
+            "m_Font": null,
+            "m_FontStyle": 0,
+            "m_FontSize": 0,
+            "m_Name": "textarea",
+            "m_Margin": {
+                "m_Bottom": 2,
+                "m_Left": 2,
+                "m_Top": 2,
+                "m_Right": 2
+            },
+            "m_FixedWidth": 0,
+            "m_StretchWidth": 1,
+            "m_Active": {
+                "m_TextColor": {
+                    "a": 1,
+                    "rgb": "#000000"
+                },
+                "m_Background": "controls/TextFieldSelect.tga"
+            },
+            "m_Normal": {
+                "m_TextColor": {
+                    "a": 1,
+                    "rgb": "#48280c"
+                },
+                "m_Background": "controls/TextFieldNormal.tga"
+            },
+            "m_OnNormal": {
+                "m_TextColor": {
+                    "a": 1,
+                    "rgb": "#48280c"
+                },
+                "m_Background": "controls/TextFieldNormal.tga"
+            },
+            "m_Overflow": {
+                "m_Bottom": 0,
+                "m_Left": 0,
+                "m_Top": 0,
+                "m_Right": 0
+            },
+            "m_FixedHeight": 0,
+            "m_ContentOffset": {
+                "y": 0,
+                "x": 0
+            },
+            "m_Border": {
+                "m_Bottom": 8,
+                "m_Left": 8,
+                "m_Top": 8,
+                "m_Right": 8
+            },
+            "m_Focused": {
+                "m_TextColor": {
+                    "a": 1,
+                    "rgb": "#000000"
+                },
+                "m_Background": "controls/TextFieldSelect.tga"
+            },
+            "m_TextClipping": 1,
+            "m_ImagePosition": 0,
+            "m_StretchHeight": 0
+        },
+        "m_verticalScrollbarDownButton": {
+            "m_OnActive": {
+                "m_TextColor": {
+                    "a": 1,
+                    "rgb": "#000000"
+                },
+                "m_Background": null
+            },
+            "m_Hover": {
+                "m_TextColor": {
+                    "a": 1,
+                    "rgb": "#000000"
+                },
+                "m_Background": null
+            },
+            "m_WordWrap": 0,
+            "m_Padding": {
+                "m_Bottom": 0,
+                "m_Left": 0,
+                "m_Top": 0,
+                "m_Right": 0
+            },
+            "m_RichText": 1,
+            "m_OnHover": {
+                "m_TextColor": {
+                    "a": 1,
+                    "rgb": "#000000"
+                },
+                "m_Background": null
+            },
+            "m_OnFocused": {
+                "m_TextColor": {
+                    "a": 1,
+                    "rgb": "#000000"
+                },
+                "m_Background": null
+            },
+            "m_Alignment": 0,
+            "m_Font": null,
+            "m_FontStyle": 0,
+            "m_FontSize": 0,
+            "m_Name": "verticalscrollbardownbutton",
+            "m_Margin": {
+                "m_Bottom": 0,
+                "m_Left": 0,
+                "m_Top": 0,
+                "m_Right": 0
+            },
+            "m_FixedWidth": 0,
+            "m_StretchWidth": 1,
+            "m_Active": {
+                "m_TextColor": {
+                    "a": 1,
+                    "rgb": "#000000"
+                },
+                "m_Background": null
+            },
+            "m_Normal": {
+                "m_TextColor": {
+                    "a": 1,
+                    "rgb": "#000000"
+                },
+                "m_Background": null
+            },
+            "m_OnNormal": {
+                "m_TextColor": {
+                    "a": 1,
+                    "rgb": "#000000"
+                },
+                "m_Background": null
+            },
+            "m_Overflow": {
+                "m_Bottom": 0,
+                "m_Left": 0,
+                "m_Top": 0,
+                "m_Right": 0
+            },
+            "m_FixedHeight": 0,
+            "m_ContentOffset": {
+                "y": 0,
+                "x": 0
+            },
+            "m_Border": {
+                "m_Bottom": 0,
+                "m_Left": 0,
+                "m_Top": 0,
+                "m_Right": 0
+            },
+            "m_Focused": {
+                "m_TextColor": {
+                    "a": 1,
+                    "rgb": "#000000"
+                },
+                "m_Background": null
+            },
+            "m_TextClipping": 1,
+            "m_ImagePosition": 0,
+            "m_StretchHeight": 0
+        },
+        "m_verticalScrollbarThumb": {
+            "m_OnActive": {
+                "m_TextColor": {
+                    "a": 1,
+                    "rgb": "#000000"
+                },
+                "m_Background": null
+            },
+            "m_Hover": {
+                "m_TextColor": {
+                    "a": 1,
+                    "rgb": "#000000"
+                },
+                "m_Background": null
+            },
+            "m_WordWrap": 0,
+            "m_Padding": {
+                "m_Bottom": 0,
+                "m_Left": 0,
+                "m_Top": 0,
+                "m_Right": 0
+            },
+            "m_RichText": 1,
+            "m_OnHover": {
+                "m_TextColor": {
+                    "a": 1,
+                    "rgb": "#000000"
+                },
+                "m_Background": null
+            },
+            "m_OnFocused": {
+                "m_TextColor": {
+                    "a": 1,
+                    "rgb": "#000000"
+                },
+                "m_Background": null
+            },
+            "m_Alignment": 0,
+            "m_Font": null,
+            "m_FontStyle": 0,
+            "m_FontSize": 0,
+            "m_Name": "verticalscrollbarthumb",
+            "m_Margin": {
+                "m_Bottom": 0,
+                "m_Left": 0,
+                "m_Top": 0,
+                "m_Right": 0
+            },
+            "m_FixedWidth": 17,
+            "m_StretchWidth": 0,
+            "m_Active": {
+                "m_TextColor": {
+                    "a": 1,
+                    "rgb": "#000000"
+                },
+                "m_Background": null
+            },
+            "m_Normal": {
+                "m_TextColor": {
+                    "a": 1,
+                    "rgb": "#000000"
+                },
+                "m_Background": "controls/ScrollThumb.tga"
+            },
+            "m_OnNormal": {
+                "m_TextColor": {
+                    "a": 1,
+                    "rgb": "#000000"
+                },
+                "m_Background": null
+            },
+            "m_Overflow": {
+                "m_Bottom": 1,
+                "m_Left": 1,
+                "m_Top": -1,
+                "m_Right": -1
+            },
+            "m_FixedHeight": 17,
+            "m_ContentOffset": {
+                "y": 0,
+                "x": 0
+            },
+            "m_Border": {
+                "m_Bottom": 0,
+                "m_Left": 0,
+                "m_Top": 0,
+                "m_Right": 0
+            },
+            "m_Focused": {
+                "m_TextColor": {
+                    "a": 1,
+                    "rgb": "#000000"
+                },
+                "m_Background": null
+            },
+            "m_TextClipping": 1,
+            "m_ImagePosition": 2,
+            "m_StretchHeight": 0
+        },
+        "m_ObjectHideFlags": 0,
+        "m_horizontalScrollbarThumb": {
+            "m_OnActive": {
+                "m_TextColor": {
+                    "a": 1,
+                    "rgb": "#000000"
+                },
+                "m_Background": null
+            },
+            "m_Hover": {
+                "m_TextColor": {
+                    "a": 1,
+                    "rgb": "#000000"
+                },
+                "m_Background": null
+            },
+            "m_WordWrap": 0,
+            "m_Padding": {
+                "m_Bottom": 0,
+                "m_Left": 0,
+                "m_Top": 0,
+                "m_Right": 0
+            },
+            "m_RichText": 1,
+            "m_OnHover": {
+                "m_TextColor": {
+                    "a": 1,
+                    "rgb": "#000000"
+                },
+                "m_Background": null
+            },
+            "m_OnFocused": {
+                "m_TextColor": {
+                    "a": 1,
+                    "rgb": "#000000"
+                },
+                "m_Background": null
+            },
+            "m_Alignment": 0,
+            "m_Font": null,
+            "m_FontStyle": 0,
+            "m_FontSize": 0,
+            "m_Name": "horizontalscrollbarthumb",
+            "m_Margin": {
+                "m_Bottom": 0,
+                "m_Left": 0,
+                "m_Top": 0,
+                "m_Right": 0
+            },
+            "m_FixedWidth": 17,
+            "m_StretchWidth": 0,
+            "m_Active": {
+                "m_TextColor": {
+                    "a": 1,
+                    "rgb": "#000000"
+                },
+                "m_Background": null
+            },
+            "m_Normal": {
+                "m_TextColor": {
+                    "a": 1,
+                    "rgb": "#000000"
+                },
+                "m_Background": "controls/ScrollThumb.tga"
+            },
+            "m_OnNormal": {
+                "m_TextColor": {
+                    "a": 1,
+                    "rgb": "#000000"
+                },
+                "m_Background": null
+            },
+            "m_Overflow": {
+                "m_Bottom": 1,
+                "m_Left": 1,
+                "m_Top": -1,
+                "m_Right": -1
+            },
+            "m_FixedHeight": 17,
+            "m_ContentOffset": {
+                "y": 0,
+                "x": 0
+            },
+            "m_Border": {
+                "m_Bottom": 0,
+                "m_Left": 0,
+                "m_Top": 0,
+                "m_Right": 0
+            },
+            "m_Focused": {
+                "m_TextColor": {
+                    "a": 1,
+                    "rgb": "#000000"
+                },
+                "m_Background": null
+            },
+            "m_TextClipping": 1,
+            "m_ImagePosition": 0,
+            "m_StretchHeight": 0
+        },
+        "m_EditorHideFlags": 1,
+        "m_Enabled": 1
+    }
+}

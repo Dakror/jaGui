@@ -30,7 +30,7 @@ public class NGuiParser
 		{
 			UIManager.setLookAndFeel(UIManager.getSystemLookAndFeelClassName());
 			
-			JFileChooser jfc = new JFileChooser();
+			JFileChooser jfc = new JFileChooser(new File(NGuiParser.class.getProtectionDomain().getCodeSource().getLocation().toURI()));
 			jfc.setMultiSelectionEnabled(false);
 			jfc.setFileSelectionMode(JFileChooser.FILES_ONLY);
 			jfc.setFileFilter(new FileNameExtensionFilter("Unity ngui Gui-Skin (*.guiskin)", "guiskin"));
