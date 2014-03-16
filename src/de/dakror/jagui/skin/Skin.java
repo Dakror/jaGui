@@ -1,6 +1,8 @@
 package de.dakror.jagui.skin;
 
+import java.awt.Font;
 import java.awt.Insets;
+import java.awt.Point;
 
 /**
  * @author Dakror
@@ -19,8 +21,23 @@ public class Skin
 	ComponentMode on_focused;
 	ComponentMode on_hover;
 	
+	Alignment alignment;
+	
+	ImagePosition imagePosition;
+	
+	Font font;
+	
 	Insets padding;
+	Insets border;
+	
+	Point contentOffset;
+	
+	int textClipping;
+	int fixedWith;
+	int fixedHeight;
 	
 	boolean richText;
 	boolean wordWrap;
+	boolean stretchWidth;
+	boolean stretchHeight;
 }

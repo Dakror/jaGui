@@ -64,7 +64,11 @@
                     "a": 1,
                     "rgb": "#000000"
                 },
-                "m_Background": "controls/TextFieldNormal.png"
+                "m_Background": {
+                    "guid": "d92f4e169f497844b9c4da3bf9013f4e",
+                    "fileID": 2800000,
+                    "type": 3
+                }
             },
             "m_OnNormal": {
                 "m_TextColor": {
@@ -113,7 +117,11 @@
                     "a": 1,
                     "rgb": "#48280c"
                 },
-                "m_Background": "controls/TextFieldSelect.png"
+                "m_Background": {
+                    "guid": "2aeabbc12bbcbe64b8c26b532eb0fc92",
+                    "fileID": 2800000,
+                    "type": 3
+                }
             },
             "m_Hover": {
                 "m_TextColor": {
@@ -142,7 +150,11 @@
                     "a": 1,
                     "rgb": "#000000"
                 },
-                "m_Background": "controls/TextFieldSelect.png"
+                "m_Background": {
+                    "guid": "2aeabbc12bbcbe64b8c26b532eb0fc92",
+                    "fileID": 2800000,
+                    "type": 3
+                }
             },
             "m_Alignment": 0,
             "m_Font": null,
@@ -162,21 +174,33 @@
                     "a": 1,
                     "rgb": "#000000"
                 },
-                "m_Background": "controls/TextFieldSelect.png"
+                "m_Background": {
+                    "guid": "2aeabbc12bbcbe64b8c26b532eb0fc92",
+                    "fileID": 2800000,
+                    "type": 3
+                }
             },
             "m_Normal": {
                 "m_TextColor": {
                     "a": 1,
                     "rgb": "#48280c"
                 },
-                "m_Background": "controls/TextFieldNormal.png"
+                "m_Background": {
+                    "guid": "d92f4e169f497844b9c4da3bf9013f4e",
+                    "fileID": 2800000,
+                    "type": 3
+                }
             },
             "m_OnNormal": {
                 "m_TextColor": {
                     "a": 1,
                     "rgb": "#48280c"
                 },
-                "m_Background": "controls/TextFieldNormal.png"
+                "m_Background": {
+                    "guid": "d92f4e169f497844b9c4da3bf9013f4e",
+                    "fileID": 2800000,
+                    "type": 3
+                }
             },
             "m_Overflow": {
                 "m_Bottom": 0,
@@ -200,7 +224,11 @@
                     "a": 1,
                     "rgb": "#000000"
                 },
-                "m_Background": "controls/TextFieldSelect.png"
+                "m_Background": {
+                    "guid": "2aeabbc12bbcbe64b8c26b532eb0fc92",
+                    "fileID": 2800000,
+                    "type": 3
+                }
             },
             "m_TextClipping": 1,
             "m_ImagePosition": 3,
@@ -268,14 +296,22 @@
                     "a": 1,
                     "rgb": "#48280c"
                 },
-                "m_Background": "controls/window.png"
+                "m_Background": {
+                    "guid": "c357b906baf44924e83e86c046ca94ff",
+                    "fileID": 2800000,
+                    "type": 3
+                }
             },
             "m_OnNormal": {
                 "m_TextColor": {
                     "a": 1,
                     "rgb": "#48280c"
                 },
-                "m_Background": "controls/window.png"
+                "m_Background": {
+                    "guid": "c357b906baf44924e83e86c046ca94ff",
+                    "fileID": 2800000,
+                    "type": 3
+                }
             },
             "m_Overflow": {
                 "m_Bottom": 0,
@@ -367,7 +403,11 @@
                     "a": 1,
                     "rgb": "#48280c"
                 },
-                "m_Background": "controls/TextBox.png"
+                "m_Background": {
+                    "guid": "1f4d7b55e9b91a144ac11784375d587d",
+                    "fileID": 2800000,
+                    "type": 3
+                }
             },
             "m_OnNormal": {
                 "m_TextColor": {
@@ -565,7 +605,11 @@
                     "a": 1,
                     "rgb": "#000000"
                 },
-                "m_Background": "controls/WinScrollVert.png"
+                "m_Background": {
+                    "guid": "b169962be7c98c143b5eb338d8c0c30d",
+                    "fileID": 2800000,
+                    "type": 3
+                }
             },
             "m_OnNormal": {
                 "m_TextColor": {
@@ -602,7 +646,11 @@
             "m_ImagePosition": 0,
             "m_StretchHeight": 1
         },
-        "m_Font": "controls/Kingthings_Calligraphica.ttf",
+        "m_Font": {
+            "guid": "5c366876ae2f6574f942cd03913ff2a8",
+            "fileID": 12800000,
+            "type": 3
+        },
         "m_horizontalSliderThumb": {
             "m_OnActive": {
                 "m_TextColor": {
@@ -665,7 +713,11 @@
                     "a": 1,
                     "rgb": "#000000"
                 },
-                "m_Background": "controls/SliderThumb.png"
+                "m_Background": {
+                    "guid": "c69f531b19ca810488d9bb77cb23e847",
+                    "fileID": 2800000,
+                    "type": 3
+                }
             },
             "m_OnNormal": {
                 "m_TextColor": {
@@ -864,7 +916,11 @@
                         "a": 1,
                         "rgb": "#000000"
                     },
-                    "m_Background": "controls/WaxSeal.png"
+                    "m_Background": {
+                        "guid": "024aa76752c92a5449a8801c599e1efd",
+                        "fileID": 2800000,
+                        "type": 3
+                    }
                 },
                 "m_OnNormal": {
                     "m_TextColor": {
@@ -963,7 +1019,11 @@
                         "a": 1,
                         "rgb": "#000000"
                     },
-                    "m_Background": "controls/GoldLeaf.png"
+                    "m_Background": {
+                        "guid": "81c9c3047c880fe4f8867e7f50c0df29",
+                        "fileID": 2800000,
+                        "type": 3
+                    }
                 },
                 "m_OnNormal": {
                     "m_TextColor": {
@@ -1062,7 +1122,11 @@
                         "a": 1,
                         "rgb": "#000000"
                     },
-                    "m_Background": "controls/IconFrame.png"
+                    "m_Background": {
+                        "guid": "cc112d970b8914d43ac85d2f51abfd94",
+                        "fileID": 2800000,
+                        "type": 3
+                    }
                 },
                 "m_OnNormal": {
                     "m_TextColor": {
@@ -1161,7 +1225,11 @@
                         "a": 1,
                         "rgb": "#000000"
                     },
-                    "m_Background": "controls/Skull.png"
+                    "m_Background": {
+                        "guid": "4ed2a6406c7b3d442991c23b5ffb601c",
+                        "fileID": 2800000,
+                        "type": 3
+                    }
                 },
                 "m_OnNormal": {
                     "m_TextColor": {
@@ -1335,7 +1403,11 @@
                     "m_Background": null
                 },
                 "m_Alignment": 0,
-                "m_Font": "controls/Kingthings_Calligraphica_Italic.ttf",
+                "m_Font": {
+                    "guid": "c70504cdd34de484bb5e178466197c3f",
+                    "fileID": 12800000,
+                    "type": 3
+                },
                 "m_FontStyle": 0,
                 "m_FontSize": 0,
                 "m_Name": "ItalicText",
@@ -1434,7 +1506,11 @@
                     "m_Background": null
                 },
                 "m_Alignment": 0,
-                "m_Font": "controls/Kingthings_Calligraphica_Light.ttf",
+                "m_Font": {
+                    "guid": "3ce4961425d650e42a4222d73f437545",
+                    "fileID": 12800000,
+                    "type": 3
+                },
                 "m_FontStyle": 0,
                 "m_FontSize": 0,
                 "m_Name": "LightText",
@@ -1533,7 +1609,11 @@
                     "m_Background": null
                 },
                 "m_Alignment": 3,
-                "m_Font": "controls/Kingthings_Calligraphica.ttf",
+                "m_Font": {
+                    "guid": "5c366876ae2f6574f942cd03913ff2a8",
+                    "fileID": 12800000,
+                    "type": 3
+                },
                 "m_FontStyle": 0,
                 "m_FontSize": 18,
                 "m_Name": "ShortLabel",
@@ -1557,7 +1637,11 @@
                         "a": 1,
                         "rgb": "#dcfefe"
                     },
-                    "m_Background": "controls/Label.png"
+                    "m_Background": {
+                        "guid": "591629b0b5ae7d44884c3dd6e3cac0c2",
+                        "fileID": 2800000,
+                        "type": 3
+                    }
                 },
                 "m_OnNormal": {
                     "m_TextColor": {
@@ -1600,14 +1684,22 @@
                         "a": 1,
                         "rgb": "#48280c"
                     },
-                    "m_Background": "controls/button.png"
+                    "m_Background": {
+                        "guid": "9bb8f50cfbe7d174ba9d9d25d51b4e48",
+                        "fileID": 2800000,
+                        "type": 3
+                    }
                 },
                 "m_Hover": {
                     "m_TextColor": {
                         "a": 1,
                         "rgb": "#48280c"
                     },
-                    "m_Background": "controls/buttonOver.png"
+                    "m_Background": {
+                        "guid": "c48b517c252b9ce4199227717b7c0082",
+                        "fileID": 2800000,
+                        "type": 3
+                    }
                 },
                 "m_WordWrap": 0,
                 "m_Padding": {
@@ -1622,7 +1714,11 @@
                         "a": 1,
                         "rgb": "#48280c"
                     },
-                    "m_Background": "controls/buttonOver.png"
+                    "m_Background": {
+                        "guid": "c48b517c252b9ce4199227717b7c0082",
+                        "fileID": 2800000,
+                        "type": 3
+                    }
                 },
                 "m_OnFocused": {
                     "m_TextColor": {
@@ -1649,21 +1745,33 @@
                         "a": 1,
                         "rgb": "#48280c"
                     },
-                    "m_Background": "controls/button.png"
+                    "m_Background": {
+                        "guid": "9bb8f50cfbe7d174ba9d9d25d51b4e48",
+                        "fileID": 2800000,
+                        "type": 3
+                    }
                 },
                 "m_Normal": {
                     "m_TextColor": {
                         "a": 1,
                         "rgb": "#48280c"
                     },
-                    "m_Background": "controls/button.png"
+                    "m_Background": {
+                        "guid": "9bb8f50cfbe7d174ba9d9d25d51b4e48",
+                        "fileID": 2800000,
+                        "type": 3
+                    }
                 },
                 "m_OnNormal": {
                     "m_TextColor": {
                         "a": 1,
                         "rgb": "#48280c"
                     },
-                    "m_Background": "controls/button.png"
+                    "m_Background": {
+                        "guid": "9bb8f50cfbe7d174ba9d9d25d51b4e48",
+                        "fileID": 2800000,
+                        "type": 3
+                    }
                 },
                 "m_Overflow": {
                     "m_Bottom": 0,
@@ -1731,7 +1839,11 @@
                     "m_Background": null
                 },
                 "m_Alignment": 0,
-                "m_Font": "controls/Kingthings_Calligraphica_Light.ttf",
+                "m_Font": {
+                    "guid": "3ce4961425d650e42a4222d73f437545",
+                    "fileID": 12800000,
+                    "type": 3
+                },
                 "m_FontStyle": 0,
                 "m_FontSize": 0,
                 "m_Name": "OutlineText",
@@ -1755,7 +1867,11 @@
                         "a": 1,
                         "rgb": "#48280c"
                     },
-                    "m_Background": "controls/TextFieldNormal.png"
+                    "m_Background": {
+                        "guid": "d92f4e169f497844b9c4da3bf9013f4e",
+                        "fileID": 2800000,
+                        "type": 3
+                    }
                 },
                 "m_OnNormal": {
                     "m_TextColor": {
@@ -1830,7 +1946,11 @@
                     "m_Background": null
                 },
                 "m_Alignment": 0,
-                "m_Font": "controls/Kingthings_Calligraphica_Italic.ttf",
+                "m_Font": {
+                    "guid": "c70504cdd34de484bb5e178466197c3f",
+                    "fileID": 12800000,
+                    "type": 3
+                },
                 "m_FontStyle": 0,
                 "m_FontSize": 0,
                 "m_Name": "ItalicOutlineText",
@@ -1854,7 +1974,11 @@
                         "a": 1,
                         "rgb": "#48280c"
                     },
-                    "m_Background": "controls/TextFieldNormal.png"
+                    "m_Background": {
+                        "guid": "d92f4e169f497844b9c4da3bf9013f4e",
+                        "fileID": 2800000,
+                        "type": 3
+                    }
                 },
                 "m_OnNormal": {
                     "m_TextColor": {
@@ -1929,7 +2053,11 @@
                     "m_Background": null
                 },
                 "m_Alignment": 0,
-                "m_Font": "controls/Kingthings_Calligraphica_Light.ttf",
+                "m_Font": {
+                    "guid": "3ce4961425d650e42a4222d73f437545",
+                    "fileID": 12800000,
+                    "type": 3
+                },
                 "m_FontStyle": 0,
                 "m_FontSize": 0,
                 "m_Name": "LightOutlineText",
@@ -1953,7 +2081,11 @@
                         "a": 1,
                         "rgb": "#48280c"
                     },
-                    "m_Background": "controls/TextFieldNormal.png"
+                    "m_Background": {
+                        "guid": "d92f4e169f497844b9c4da3bf9013f4e",
+                        "fileID": 2800000,
+                        "type": 3
+                    }
                 },
                 "m_OnNormal": {
                     "m_TextColor": {
@@ -2028,7 +2160,11 @@
                     "m_Background": null
                 },
                 "m_Alignment": 0,
-                "m_Font": "controls/Kingthings_Calligraphica_Light.ttf",
+                "m_Font": {
+                    "guid": "3ce4961425d650e42a4222d73f437545",
+                    "fileID": 12800000,
+                    "type": 3
+                },
                 "m_FontStyle": 1,
                 "m_FontSize": 0,
                 "m_Name": "BoldOutlineText",
@@ -2052,7 +2188,11 @@
                         "a": 1,
                         "rgb": "#48280c"
                     },
-                    "m_Background": "controls/TextFieldNormal.png"
+                    "m_Background": {
+                        "guid": "d92f4e169f497844b9c4da3bf9013f4e",
+                        "fileID": 2800000,
+                        "type": 3
+                    }
                 },
                 "m_OnNormal": {
                     "m_TextColor": {
@@ -2127,7 +2267,11 @@
                     "m_Background": null
                 },
                 "m_Alignment": 0,
-                "m_Font": "controls/Kingthings_Calligraphica.ttf",
+                "m_Font": {
+                    "guid": "5c366876ae2f6574f942cd03913ff2a8",
+                    "fileID": 12800000,
+                    "type": 3
+                },
                 "m_FontStyle": 0,
                 "m_FontSize": 0,
                 "m_Name": "DisabledOutlineText",
@@ -2151,7 +2295,11 @@
                         "a": 1,
                         "rgb": "#9d634d"
                     },
-                    "m_Background": "controls/TextFieldNormal.png"
+                    "m_Background": {
+                        "guid": "d92f4e169f497844b9c4da3bf9013f4e",
+                        "fileID": 2800000,
+                        "type": 3
+                    }
                 },
                 "m_OnNormal": {
                     "m_TextColor": {
@@ -2226,7 +2374,11 @@
                     "m_Background": null
                 },
                 "m_Alignment": 0,
-                "m_Font": "controls/Kingthings_Calligraphica_Light.ttf",
+                "m_Font": {
+                    "guid": "3ce4961425d650e42a4222d73f437545",
+                    "fileID": 12800000,
+                    "type": 3
+                },
                 "m_FontStyle": 1,
                 "m_FontSize": 0,
                 "m_Name": "BoldText",
@@ -2424,7 +2576,11 @@
                     "m_Background": null
                 },
                 "m_Alignment": 0,
-                "m_Font": "controls/Kingthings_Calligraphica_Light.ttf",
+                "m_Font": {
+                    "guid": "3ce4961425d650e42a4222d73f437545",
+                    "fileID": 12800000,
+                    "type": 3
+                },
                 "m_FontStyle": 1,
                 "m_FontSize": 0,
                 "m_Name": "CursedText",
@@ -2523,7 +2679,11 @@
                     "m_Background": null
                 },
                 "m_Alignment": 0,
-                "m_Font": "controls/Kingthings_Calligraphica_Light.ttf",
+                "m_Font": {
+                    "guid": "3ce4961425d650e42a4222d73f437545",
+                    "fileID": 12800000,
+                    "type": 3
+                },
                 "m_FontStyle": 1,
                 "m_FontSize": 0,
                 "m_Name": "LegendaryText",
@@ -2646,7 +2806,11 @@
                         "a": 1,
                         "rgb": "#48280c"
                     },
-                    "m_Background": "controls/Divider.png"
+                    "m_Background": {
+                        "guid": "8555fa900c4d9eb4da3156bea08f9473",
+                        "fileID": 2800000,
+                        "type": 3
+                    }
                 },
                 "m_OnNormal": {
                     "m_TextColor": {
@@ -2745,7 +2909,11 @@
                         "a": 1,
                         "rgb": "#48280c"
                     },
-                    "m_Background": "controls/spikeLeft.png"
+                    "m_Background": {
+                        "guid": "9c96dbbb88d7e7e4ebb0797976fbe2a1",
+                        "fileID": 2800000,
+                        "type": 3
+                    }
                 },
                 "m_OnNormal": {
                     "m_TextColor": {
@@ -2844,7 +3012,11 @@
                         "a": 1,
                         "rgb": "#48280c"
                     },
-                    "m_Background": "controls/spikeMid.png"
+                    "m_Background": {
+                        "guid": "4bd98a9cbe05d4d48b491c96b449155a",
+                        "fileID": 2800000,
+                        "type": 3
+                    }
                 },
                 "m_OnNormal": {
                     "m_TextColor": {
@@ -2943,7 +3115,11 @@
                         "a": 1,
                         "rgb": "#48280c"
                     },
-                    "m_Background": "controls/spikeRight.png"
+                    "m_Background": {
+                        "guid": "075396dc2982b1c48b25c41c17d6edcb",
+                        "fileID": 2800000,
+                        "type": 3
+                    }
                 },
                 "m_OnNormal": {
                     "m_TextColor": {
@@ -3042,7 +3218,11 @@
                         "a": 1,
                         "rgb": "#48280c"
                     },
-                    "m_Background": "controls/spike.png"
+                    "m_Background": {
+                        "guid": "e2fc8788b2abb29489de4ad5199f4698",
+                        "fileID": 2800000,
+                        "type": 3
+                    }
                 },
                 "m_OnNormal": {
                     "m_TextColor": {
@@ -3141,7 +3321,11 @@
                         "a": 1,
                         "rgb": "#48280c"
                     },
-                    "m_Background": "controls/RibbonBlue.png"
+                    "m_Background": {
+                        "guid": "4f4bfa265293341409bf0bbfe3824e9e",
+                        "fileID": 2800000,
+                        "type": 3
+                    }
                 },
                 "m_OnNormal": {
                     "m_TextColor": {
@@ -3240,7 +3424,11 @@
                         "a": 1,
                         "rgb": "#48280c"
                     },
-                    "m_Background": "controls/RibbonRed.png"
+                    "m_Background": {
+                        "guid": "e84bbc87f25181542bdf768a140dad9f",
+                        "fileID": 2800000,
+                        "type": 3
+                    }
                 },
                 "m_OnNormal": {
                     "m_TextColor": {
@@ -3339,7 +3527,11 @@
                         "a": 1,
                         "rgb": "#48280c"
                     },
-                    "m_Background": "controls/RibbonGreen.png"
+                    "m_Background": {
+                        "guid": "af3b78f3ffca94046a659e9aab1d68d6",
+                        "fileID": 2800000,
+                        "type": 3
+                    }
                 },
                 "m_OnNormal": {
                     "m_TextColor": {
@@ -3438,7 +3630,11 @@
                         "a": 1,
                         "rgb": "#48280c"
                     },
-                    "m_Background": "controls/RibbonYellow.png"
+                    "m_Background": {
+                        "guid": "8a237ff2fa0ffc14882b850b56194181",
+                        "fileID": 2800000,
+                        "type": 3
+                    }
                 },
                 "m_OnNormal": {
                     "m_TextColor": {
@@ -3513,7 +3709,11 @@
                     "m_Background": null
                 },
                 "m_Alignment": 0,
-                "m_Font": "controls/Kingthings_Calligraphica_Italic.ttf",
+                "m_Font": {
+                    "guid": "c70504cdd34de484bb5e178466197c3f",
+                    "fileID": 12800000,
+                    "type": 3
+                },
                 "m_FontStyle": 0,
                 "m_FontSize": 0,
                 "m_Name": "SingleQuotes",
@@ -3537,7 +3737,11 @@
                         "a": 1,
                         "rgb": "#48280c"
                     },
-                    "m_Background": "controls/singleQuotes.png"
+                    "m_Background": {
+                        "guid": "b967abd3473f2664a8da5cb37aab0faf",
+                        "fileID": 2800000,
+                        "type": 3
+                    }
                 },
                 "m_OnNormal": {
                     "m_TextColor": {
@@ -3694,14 +3898,22 @@
                     "a": 1,
                     "rgb": "#48280c"
                 },
-                "m_Background": "controls/button.png"
+                "m_Background": {
+                    "guid": "9bb8f50cfbe7d174ba9d9d25d51b4e48",
+                    "fileID": 2800000,
+                    "type": 3
+                }
             },
             "m_Hover": {
                 "m_TextColor": {
                     "a": 1,
                     "rgb": "#48280c"
                 },
-                "m_Background": "controls/buttonOver.png"
+                "m_Background": {
+                    "guid": "c48b517c252b9ce4199227717b7c0082",
+                    "fileID": 2800000,
+                    "type": 3
+                }
             },
             "m_WordWrap": 0,
             "m_Padding": {
@@ -3716,7 +3928,11 @@
                     "a": 1,
                     "rgb": "#48280c"
                 },
-                "m_Background": "controls/buttonOver.png"
+                "m_Background": {
+                    "guid": "c48b517c252b9ce4199227717b7c0082",
+                    "fileID": 2800000,
+                    "type": 3
+                }
             },
             "m_OnFocused": {
                 "m_TextColor": {
@@ -3743,21 +3959,33 @@
                     "a": 1,
                     "rgb": "#48280c"
                 },
-                "m_Background": "controls/button.png"
+                "m_Background": {
+                    "guid": "9bb8f50cfbe7d174ba9d9d25d51b4e48",
+                    "fileID": 2800000,
+                    "type": 3
+                }
             },
             "m_Normal": {
                 "m_TextColor": {
                     "a": 1,
                     "rgb": "#48280c"
                 },
-                "m_Background": "controls/button.png"
+                "m_Background": {
+                    "guid": "9bb8f50cfbe7d174ba9d9d25d51b4e48",
+                    "fileID": 2800000,
+                    "type": 3
+                }
             },
             "m_OnNormal": {
                 "m_TextColor": {
                     "a": 1,
                     "rgb": "#48280c"
                 },
-                "m_Background": "controls/button.png"
+                "m_Background": {
+                    "guid": "9bb8f50cfbe7d174ba9d9d25d51b4e48",
+                    "fileID": 2800000,
+                    "type": 3
+                }
             },
             "m_Overflow": {
                 "m_Bottom": 0,
@@ -3849,7 +4077,11 @@
                     "a": 1,
                     "rgb": "#48280c"
                 },
-                "m_Background": "controls/SliderVert.png"
+                "m_Background": {
+                    "guid": "8804bb7f7aadd81499dc69f9c828df84",
+                    "fileID": 2800000,
+                    "type": 3
+                }
             },
             "m_OnNormal": {
                 "m_TextColor": {
@@ -3924,7 +4156,11 @@
                 "m_Background": null
             },
             "m_Alignment": 4,
-            "m_Font": "controls/Kingthings_Calligraphica.ttf",
+            "m_Font": {
+                "guid": "5c366876ae2f6574f942cd03913ff2a8",
+                "fileID": 12800000,
+                "type": 3
+            },
             "m_FontStyle": 0,
             "m_FontSize": 18,
             "m_Name": "label",
@@ -3948,7 +4184,11 @@
                     "a": 1,
                     "rgb": "#ddffff"
                 },
-                "m_Background": "controls/Label.png"
+                "m_Background": {
+                    "guid": "591629b0b5ae7d44884c3dd6e3cac0c2",
+                    "fileID": 2800000,
+                    "type": 3
+                }
             },
             "m_OnNormal": {
                 "m_TextColor": {
@@ -4047,7 +4287,11 @@
                     "a": 1,
                     "rgb": "#48280c"
                 },
-                "m_Background": "controls/SliderHoriz.png"
+                "m_Background": {
+                    "guid": "6f548b3d29e79324a8b8c89ce68eaf9c",
+                    "fileID": 2800000,
+                    "type": 3
+                }
             },
             "m_OnNormal": {
                 "m_TextColor": {
@@ -4146,7 +4390,11 @@
                     "a": 1,
                     "rgb": "#000000"
                 },
-                "m_Background": "controls/SliderThumb.png"
+                "m_Background": {
+                    "guid": "c69f531b19ca810488d9bb77cb23e847",
+                    "fileID": 2800000,
+                    "type": 3
+                }
             },
             "m_OnNormal": {
                 "m_TextColor": {
@@ -4246,7 +4494,11 @@
                     "a": 1,
                     "rgb": "#000000"
                 },
-                "m_Background": "controls/WinScrollHoriz.png"
+                "m_Background": {
+                    "guid": "755e87bff6c18b64a951be313bc3516c",
+                    "fileID": 2800000,
+                    "type": 3
+                }
             },
             "m_OnNormal": {
                 "m_TextColor": {
@@ -4345,14 +4597,22 @@
                     "a": 1,
                     "rgb": "#48280c"
                 },
-                "m_Background": "controls/CheckBox.png"
+                "m_Background": {
+                    "guid": "8aa81fdaf09ca944dbed1c5028e2aa8d",
+                    "fileID": 2800000,
+                    "type": 3
+                }
             },
             "m_OnNormal": {
                 "m_TextColor": {
                     "a": 1,
                     "rgb": "#48280c"
                 },
-                "m_Background": "controls/Check.png"
+                "m_Background": {
+                    "guid": "3da85626c7e441c4b91528bf9b4eaabd",
+                    "fileID": 2800000,
+                    "type": 3
+                }
             },
             "m_Overflow": {
                 "m_Bottom": 0,
@@ -4388,7 +4648,11 @@
                     "a": 1,
                     "rgb": "#48280c"
                 },
-                "m_Background": "controls/TextFieldSelect.png"
+                "m_Background": {
+                    "guid": "2aeabbc12bbcbe64b8c26b532eb0fc92",
+                    "fileID": 2800000,
+                    "type": 3
+                }
             },
             "m_Hover": {
                 "m_TextColor": {
@@ -4417,7 +4681,11 @@
                     "a": 1,
                     "rgb": "#000000"
                 },
-                "m_Background": "controls/TextFieldSelect.png"
+                "m_Background": {
+                    "guid": "2aeabbc12bbcbe64b8c26b532eb0fc92",
+                    "fileID": 2800000,
+                    "type": 3
+                }
             },
             "m_Alignment": 0,
             "m_Font": null,
@@ -4437,21 +4705,33 @@
                     "a": 1,
                     "rgb": "#000000"
                 },
-                "m_Background": "controls/TextFieldSelect.png"
+                "m_Background": {
+                    "guid": "2aeabbc12bbcbe64b8c26b532eb0fc92",
+                    "fileID": 2800000,
+                    "type": 3
+                }
             },
             "m_Normal": {
                 "m_TextColor": {
                     "a": 1,
                     "rgb": "#48280c"
                 },
-                "m_Background": "controls/TextFieldNormal.png"
+                "m_Background": {
+                    "guid": "d92f4e169f497844b9c4da3bf9013f4e",
+                    "fileID": 2800000,
+                    "type": 3
+                }
             },
             "m_OnNormal": {
                 "m_TextColor": {
                     "a": 1,
                     "rgb": "#48280c"
                 },
-                "m_Background": "controls/TextFieldNormal.png"
+                "m_Background": {
+                    "guid": "d92f4e169f497844b9c4da3bf9013f4e",
+                    "fileID": 2800000,
+                    "type": 3
+                }
             },
             "m_Overflow": {
                 "m_Bottom": 0,
@@ -4475,7 +4755,11 @@
                     "a": 1,
                     "rgb": "#000000"
                 },
-                "m_Background": "controls/TextFieldSelect.png"
+                "m_Background": {
+                    "guid": "2aeabbc12bbcbe64b8c26b532eb0fc92",
+                    "fileID": 2800000,
+                    "type": 3
+                }
             },
             "m_TextClipping": 1,
             "m_ImagePosition": 0,
@@ -4642,7 +4926,11 @@
                     "a": 1,
                     "rgb": "#000000"
                 },
-                "m_Background": "controls/ScrollThumb.png"
+                "m_Background": {
+                    "guid": "d118d57c0d2c66d4987c2798b831f299",
+                    "fileID": 2800000,
+                    "type": 3
+                }
             },
             "m_OnNormal": {
                 "m_TextColor": {
@@ -4742,7 +5030,11 @@
                     "a": 1,
                     "rgb": "#000000"
                 },
-                "m_Background": "controls/ScrollThumb.png"
+                "m_Background": {
+                    "guid": "d118d57c0d2c66d4987c2798b831f299",
+                    "fileID": 2800000,
+                    "type": 3
+                }
             },
             "m_OnNormal": {
                 "m_TextColor": {
