@@ -1,5 +1,7 @@
 package de.dakror.jagui.parser;
+
 import java.io.File;
+import java.io.FileOutputStream;
 import java.io.FileReader;
 import java.util.ArrayList;
 import java.util.Arrays;
@@ -23,10 +25,15 @@ import de.dakror.gamesetup.util.Helper;
  */
 public class NGuiParser
 {
+	public static final File DIR = new File(System.getProperty("user.home") + "/.dakror/jaGui");
+	
 	public static void main(String[] args)
 	{
 		try
 		{
+			DIR.mkdirs();
+			if (!new File(DIR, "convert.exe").exists()) Helper.copyInputStream(NGuiParser.class.getResourceAsStream("/res/convert.exe"), new FileOutputStream(new File(DIR, "convert.exe")));
+			
 			UIManager.setLookAndFeel(UIManager.getSystemLookAndFeelClassName());
 			
 			JFileChooser jfc = new JFileChooser(new File(NGuiParser.class.getProtectionDomain().getCodeSource().getLocation().toURI()));
@@ -36,7 +43,7 @@ public class NGuiParser
 			
 			if (jfc.showOpenDialog(null) == JFileChooser.APPROVE_OPTION)
 			{
-				p("Collecting GUIDs");
+				p("Collecting GUIDs, Converting Resources");
 				HashMap<String, File> guids = collectGUIDs(jfc.getCurrentDirectory());
 				
 				p("Parsing Guiskin file");
@@ -141,7 +148,12 @@ public class NGuiParser
 				if (represents.exists())
 				{
 					JSONObject o = new JSONObject((Map<?, ?>) new Yaml().load(new FileReader(f)));
-					hash.put(o.getString("guid"), represents);
+					if (represents.getName().endsWith(".tga"))
+					{
+						Runtime.getRuntime().exec("\"" + new File(DIR, "convert.exe").getPath() + "\" \"" + represents.getPath() + "\" \"" + represents.getParentFile().getPath() + "/" + represents.getName().replace(".tga", ".png") + "\"");
+						hash.put(o.getString("guid"), new File(represents.getParentFile(), represents.getName().replace(".tga", ".png")));
+					}
+					else hash.put(o.getString("guid"), represents);
 				}
 			}
 		}

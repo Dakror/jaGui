@@ -64,7 +64,7 @@
                     "a": 1,
                     "rgb": "#000000"
                 },
-                "m_Background": "controls/TextFieldNormal.tga"
+                "m_Background": "controls/TextFieldNormal.png"
             },
             "m_OnNormal": {
                 "m_TextColor": {
@@ -113,7 +113,7 @@
                     "a": 1,
                     "rgb": "#48280c"
                 },
-                "m_Background": "controls/TextFieldSelect.tga"
+                "m_Background": "controls/TextFieldSelect.png"
             },
             "m_Hover": {
                 "m_TextColor": {
@@ -142,7 +142,7 @@
                     "a": 1,
                     "rgb": "#000000"
                 },
-                "m_Background": "controls/TextFieldSelect.tga"
+                "m_Background": "controls/TextFieldSelect.png"
             },
             "m_Alignment": 0,
             "m_Font": null,
@@ -162,21 +162,21 @@
                     "a": 1,
                     "rgb": "#000000"
                 },
-                "m_Background": "controls/TextFieldSelect.tga"
+                "m_Background": "controls/TextFieldSelect.png"
             },
             "m_Normal": {
                 "m_TextColor": {
                     "a": 1,
                     "rgb": "#48280c"
                 },
-                "m_Background": "controls/TextFieldNormal.tga"
+                "m_Background": "controls/TextFieldNormal.png"
             },
             "m_OnNormal": {
                 "m_TextColor": {
                     "a": 1,
                     "rgb": "#48280c"
                 },
-                "m_Background": "controls/TextFieldNormal.tga"
+                "m_Background": "controls/TextFieldNormal.png"
             },
             "m_Overflow": {
                 "m_Bottom": 0,
@@ -200,7 +200,7 @@
                     "a": 1,
                     "rgb": "#000000"
                 },
-                "m_Background": "controls/TextFieldSelect.tga"
+                "m_Background": "controls/TextFieldSelect.png"
             },
             "m_TextClipping": 1,
             "m_ImagePosition": 3,
@@ -268,14 +268,14 @@
                     "a": 1,
                     "rgb": "#48280c"
                 },
-                "m_Background": "controls/window.tga"
+                "m_Background": "controls/window.png"
             },
             "m_OnNormal": {
                 "m_TextColor": {
                     "a": 1,
                     "rgb": "#48280c"
                 },
-                "m_Background": "controls/window.tga"
+                "m_Background": "controls/window.png"
             },
             "m_Overflow": {
                 "m_Bottom": 0,
@@ -367,7 +367,7 @@
                     "a": 1,
                     "rgb": "#48280c"
                 },
-                "m_Background": "controls/TextBox.tga"
+                "m_Background": "controls/TextBox.png"
             },
             "m_OnNormal": {
                 "m_TextColor": {
@@ -565,7 +565,7 @@
                     "a": 1,
                     "rgb": "#000000"
                 },
-                "m_Background": "controls/WinScrollVert.tga"
+                "m_Background": "controls/WinScrollVert.png"
             },
             "m_OnNormal": {
                 "m_TextColor": {
@@ -665,7 +665,7 @@
                     "a": 1,
                     "rgb": "#000000"
                 },
-                "m_Background": "controls/SliderThumb.tga"
+                "m_Background": "controls/SliderThumb.png"
             },
             "m_OnNormal": {
                 "m_TextColor": {
@@ -864,7 +864,7 @@
                         "a": 1,
                         "rgb": "#000000"
                     },
-                    "m_Background": "controls/WaxSeal.tga"
+                    "m_Background": "controls/WaxSeal.png"
                 },
                 "m_OnNormal": {
                     "m_TextColor": {
@@ -963,7 +963,7 @@
                         "a": 1,
                         "rgb": "#000000"
                     },
-                    "m_Background": "controls/GoldLeaf.tga"
+                    "m_Background": "controls/GoldLeaf.png"
                 },
                 "m_OnNormal": {
                     "m_TextColor": {
@@ -1062,7 +1062,7 @@
                         "a": 1,
                         "rgb": "#000000"
                     },
-                    "m_Background": "controls/IconFrame.tga"
+                    "m_Background": "controls/IconFrame.png"
                 },
                 "m_OnNormal": {
                     "m_TextColor": {
@@ -1161,7 +1161,7 @@
                         "a": 1,
                         "rgb": "#000000"
                     },
-                    "m_Background": "controls/Skull.tga"
+                    "m_Background": "controls/Skull.png"
                 },
                 "m_OnNormal": {
                     "m_TextColor": {
@@ -1557,7 +1557,7 @@
                         "a": 1,
                         "rgb": "#dcfefe"
                     },
-                    "m_Background": "controls/Label.tga"
+                    "m_Background": "controls/Label.png"
                 },
                 "m_OnNormal": {
                     "m_TextColor": {
@@ -1600,14 +1600,14 @@
                         "a": 1,
                         "rgb": "#48280c"
                     },
-                    "m_Background": "controls/button.tga"
+                    "m_Background": "controls/button.png"
                 },
                 "m_Hover": {
                     "m_TextColor": {
                         "a": 1,
                         "rgb": "#48280c"
                     },
-                    "m_Background": "controls/buttonOver.tga"
+                    "m_Background": "controls/buttonOver.png"
                 },
                 "m_WordWrap": 0,
                 "m_Padding": {
@@ -1622,7 +1622,7 @@
                         "a": 1,
                         "rgb": "#48280c"
                     },
-                    "m_Background": "controls/buttonOver.tga"
+                    "m_Background": "controls/buttonOver.png"
                 },
                 "m_OnFocused": {
                     "m_TextColor": {
@@ -1649,21 +1649,21 @@
                         "a": 1,
                         "rgb": "#48280c"
                     },
-                    "m_Background": "controls/button.tga"
+                    "m_Background": "controls/button.png"
                 },
                 "m_Normal": {
                     "m_TextColor": {
                         "a": 1,
                         "rgb": "#48280c"
                     },
-                    "m_Background": "controls/button.tga"
+                    "m_Background": "controls/button.png"
                 },
                 "m_OnNormal": {
                     "m_TextColor": {
                         "a": 1,
                         "rgb": "#48280c"
                     },
-                    "m_Background": "controls/button.tga"
+                    "m_Background": "controls/button.png"
                 },
                 "m_Overflow": {
                     "m_Bottom": 0,
@@ -1755,7 +1755,7 @@
                         "a": 1,
                         "rgb": "#48280c"
                     },
-                    "m_Background": "controls/TextFieldNormal.tga"
+                    "m_Background": "controls/TextFieldNormal.png"
                 },
                 "m_OnNormal": {
                     "m_TextColor": {
@@ -1854,7 +1854,7 @@
                         "a": 1,
                         "rgb": "#48280c"
                     },
-                    "m_Background": "controls/TextFieldNormal.tga"
+                    "m_Background": "controls/TextFieldNormal.png"
                 },
                 "m_OnNormal": {
                     "m_TextColor": {
@@ -1953,7 +1953,7 @@
                         "a": 1,
                         "rgb": "#48280c"
                     },
-                    "m_Background": "controls/TextFieldNormal.tga"
+                    "m_Background": "controls/TextFieldNormal.png"
                 },
                 "m_OnNormal": {
                     "m_TextColor": {
@@ -2052,7 +2052,7 @@
                         "a": 1,
                         "rgb": "#48280c"
                     },
-                    "m_Background": "controls/TextFieldNormal.tga"
+                    "m_Background": "controls/TextFieldNormal.png"
                 },
                 "m_OnNormal": {
                     "m_TextColor": {
@@ -2151,7 +2151,7 @@
                         "a": 1,
                         "rgb": "#9d634d"
                     },
-                    "m_Background": "controls/TextFieldNormal.tga"
+                    "m_Background": "controls/TextFieldNormal.png"
                 },
                 "m_OnNormal": {
                     "m_TextColor": {
@@ -2646,7 +2646,7 @@
                         "a": 1,
                         "rgb": "#48280c"
                     },
-                    "m_Background": "controls/Divider.tga"
+                    "m_Background": "controls/Divider.png"
                 },
                 "m_OnNormal": {
                     "m_TextColor": {
@@ -2745,7 +2745,7 @@
                         "a": 1,
                         "rgb": "#48280c"
                     },
-                    "m_Background": "controls/spikeLeft.tga"
+                    "m_Background": "controls/spikeLeft.png"
                 },
                 "m_OnNormal": {
                     "m_TextColor": {
@@ -2844,7 +2844,7 @@
                         "a": 1,
                         "rgb": "#48280c"
                     },
-                    "m_Background": "controls/spikeMid.tga"
+                    "m_Background": "controls/spikeMid.png"
                 },
                 "m_OnNormal": {
                     "m_TextColor": {
@@ -2943,7 +2943,7 @@
                         "a": 1,
                         "rgb": "#48280c"
                     },
-                    "m_Background": "controls/spikeRight.tga"
+                    "m_Background": "controls/spikeRight.png"
                 },
                 "m_OnNormal": {
                     "m_TextColor": {
@@ -3042,7 +3042,7 @@
                         "a": 1,
                         "rgb": "#48280c"
                     },
-                    "m_Background": "controls/spike.tga"
+                    "m_Background": "controls/spike.png"
                 },
                 "m_OnNormal": {
                     "m_TextColor": {
@@ -3141,7 +3141,7 @@
                         "a": 1,
                         "rgb": "#48280c"
                     },
-                    "m_Background": "controls/RibbonBlue.tga"
+                    "m_Background": "controls/RibbonBlue.png"
                 },
                 "m_OnNormal": {
                     "m_TextColor": {
@@ -3240,7 +3240,7 @@
                         "a": 1,
                         "rgb": "#48280c"
                     },
-                    "m_Background": "controls/RibbonRed.tga"
+                    "m_Background": "controls/RibbonRed.png"
                 },
                 "m_OnNormal": {
                     "m_TextColor": {
@@ -3339,7 +3339,7 @@
                         "a": 1,
                         "rgb": "#48280c"
                     },
-                    "m_Background": "controls/RibbonGreen.tga"
+                    "m_Background": "controls/RibbonGreen.png"
                 },
                 "m_OnNormal": {
                     "m_TextColor": {
@@ -3438,7 +3438,7 @@
                         "a": 1,
                         "rgb": "#48280c"
                     },
-                    "m_Background": "controls/RibbonYellow.tga"
+                    "m_Background": "controls/RibbonYellow.png"
                 },
                 "m_OnNormal": {
                     "m_TextColor": {
@@ -3537,7 +3537,7 @@
                         "a": 1,
                         "rgb": "#48280c"
                     },
-                    "m_Background": "controls/singleQuotes.tga"
+                    "m_Background": "controls/singleQuotes.png"
                 },
                 "m_OnNormal": {
                     "m_TextColor": {
@@ -3694,14 +3694,14 @@
                     "a": 1,
                     "rgb": "#48280c"
                 },
-                "m_Background": "controls/button.tga"
+                "m_Background": "controls/button.png"
             },
             "m_Hover": {
                 "m_TextColor": {
                     "a": 1,
                     "rgb": "#48280c"
                 },
-                "m_Background": "controls/buttonOver.tga"
+                "m_Background": "controls/buttonOver.png"
             },
             "m_WordWrap": 0,
             "m_Padding": {
@@ -3716,7 +3716,7 @@
                     "a": 1,
                     "rgb": "#48280c"
                 },
-                "m_Background": "controls/buttonOver.tga"
+                "m_Background": "controls/buttonOver.png"
             },
             "m_OnFocused": {
                 "m_TextColor": {
@@ -3743,21 +3743,21 @@
                     "a": 1,
                     "rgb": "#48280c"
                 },
-                "m_Background": "controls/button.tga"
+                "m_Background": "controls/button.png"
             },
             "m_Normal": {
                 "m_TextColor": {
                     "a": 1,
                     "rgb": "#48280c"
                 },
-                "m_Background": "controls/button.tga"
+                "m_Background": "controls/button.png"
             },
             "m_OnNormal": {
                 "m_TextColor": {
                     "a": 1,
                     "rgb": "#48280c"
                 },
-                "m_Background": "controls/button.tga"
+                "m_Background": "controls/button.png"
             },
             "m_Overflow": {
                 "m_Bottom": 0,
@@ -3849,7 +3849,7 @@
                     "a": 1,
                     "rgb": "#48280c"
                 },
-                "m_Background": "controls/SliderVert.tga"
+                "m_Background": "controls/SliderVert.png"
             },
             "m_OnNormal": {
                 "m_TextColor": {
@@ -3948,7 +3948,7 @@
                     "a": 1,
                     "rgb": "#ddffff"
                 },
-                "m_Background": "controls/Label.tga"
+                "m_Background": "controls/Label.png"
             },
             "m_OnNormal": {
                 "m_TextColor": {
@@ -4047,7 +4047,7 @@
                     "a": 1,
                     "rgb": "#48280c"
                 },
-                "m_Background": "controls/SliderHoriz.tga"
+                "m_Background": "controls/SliderHoriz.png"
             },
             "m_OnNormal": {
                 "m_TextColor": {
@@ -4146,7 +4146,7 @@
                     "a": 1,
                     "rgb": "#000000"
                 },
-                "m_Background": "controls/SliderThumb.tga"
+                "m_Background": "controls/SliderThumb.png"
             },
             "m_OnNormal": {
                 "m_TextColor": {
@@ -4246,7 +4246,7 @@
                     "a": 1,
                     "rgb": "#000000"
                 },
-                "m_Background": "controls/WinScrollHoriz.tga"
+                "m_Background": "controls/WinScrollHoriz.png"
             },
             "m_OnNormal": {
                 "m_TextColor": {
@@ -4345,14 +4345,14 @@
                     "a": 1,
                     "rgb": "#48280c"
                 },
-                "m_Background": "controls/CheckBox.tga"
+                "m_Background": "controls/CheckBox.png"
             },
             "m_OnNormal": {
                 "m_TextColor": {
                     "a": 1,
                     "rgb": "#48280c"
                 },
-                "m_Background": "controls/Check.tga"
+                "m_Background": "controls/Check.png"
             },
             "m_Overflow": {
                 "m_Bottom": 0,
@@ -4388,7 +4388,7 @@
                     "a": 1,
                     "rgb": "#48280c"
                 },
-                "m_Background": "controls/TextFieldSelect.tga"
+                "m_Background": "controls/TextFieldSelect.png"
             },
             "m_Hover": {
                 "m_TextColor": {
@@ -4417,7 +4417,7 @@
                     "a": 1,
                     "rgb": "#000000"
                 },
-                "m_Background": "controls/TextFieldSelect.tga"
+                "m_Background": "controls/TextFieldSelect.png"
             },
             "m_Alignment": 0,
             "m_Font": null,
@@ -4437,21 +4437,21 @@
                     "a": 1,
                     "rgb": "#000000"
                 },
-                "m_Background": "controls/TextFieldSelect.tga"
+                "m_Background": "controls/TextFieldSelect.png"
             },
             "m_Normal": {
                 "m_TextColor": {
                     "a": 1,
                     "rgb": "#48280c"
                 },
-                "m_Background": "controls/TextFieldNormal.tga"
+                "m_Background": "controls/TextFieldNormal.png"
             },
             "m_OnNormal": {
                 "m_TextColor": {
                     "a": 1,
                     "rgb": "#48280c"
                 },
-                "m_Background": "controls/TextFieldNormal.tga"
+                "m_Background": "controls/TextFieldNormal.png"
             },
             "m_Overflow": {
                 "m_Bottom": 0,
@@ -4475,7 +4475,7 @@
                     "a": 1,
                     "rgb": "#000000"
                 },
-                "m_Background": "controls/TextFieldSelect.tga"
+                "m_Background": "controls/TextFieldSelect.png"
             },
             "m_TextClipping": 1,
             "m_ImagePosition": 0,
@@ -4642,7 +4642,7 @@
                     "a": 1,
                     "rgb": "#000000"
                 },
-                "m_Background": "controls/ScrollThumb.tga"
+                "m_Background": "controls/ScrollThumb.png"
             },
             "m_OnNormal": {
                 "m_TextColor": {
@@ -4742,7 +4742,7 @@
                     "a": 1,
                     "rgb": "#000000"
                 },
-                "m_Background": "controls/ScrollThumb.tga"
+                "m_Background": "controls/ScrollThumb.png"
             },
             "m_OnNormal": {
                 "m_TextColor": {
