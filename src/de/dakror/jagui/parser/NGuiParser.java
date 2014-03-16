@@ -1,5 +1,4 @@
-package de.dakror.jagui;
-
+package de.dakror.jagui.parser;
 import java.io.File;
 import java.io.FileReader;
 import java.util.ArrayList;
