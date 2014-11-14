@@ -10,28 +10,22 @@ import de.dakror.gamesetup.util.Helper;
 /**
  * @author Dakror
  */
-public class GuiSkin
-{
+public class GuiSkin {
 	JSONObject flatData;
 	File skinFile;
 	Font globalFont;
 	
-	public GuiSkin(File file)
-	{
-		try
-		{
+	public GuiSkin(File file) {
+		try {
 			skinFile = file;
 			flatData = new JSONObject(Helper.getFileContent(file)).getJSONObject("MonoBehaviour");
 			if (flatData.has("m_Font") && !flatData.isNull("m_Font")) globalFont = Font.createFont(Font.TRUETYPE_FONT, new File(skinFile.getParentFile().getPath() + "/" + flatData.getString("m_Font")));
-		}
-		catch (Exception e)
-		{
+		} catch (Exception e) {
 			e.printStackTrace();
 		}
 	}
 	
-	public Font getGlobalFont()
-	{
+	public Font getGlobalFont() {
 		return globalFont;
 	}
 }

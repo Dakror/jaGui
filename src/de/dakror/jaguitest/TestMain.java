@@ -8,10 +8,8 @@ import de.dakror.jaguitest.game.UpdateThread;
 /**
  * @author Dakror
  */
-public class TestMain
-{
-	public static void main(String[] args) throws Exception
-	{
+public class TestMain {
+	public static void main(String[] args) throws Exception {
 		UIManager.setLookAndFeel(UIManager.getSystemLookAndFeelClassName());
 		
 		new Game();

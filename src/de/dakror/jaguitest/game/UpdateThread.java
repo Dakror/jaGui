@@ -5,9 +5,7 @@ import de.dakror.gamesetup.Updater;
 /**
  * @author Dakror
  */
-public class UpdateThread extends Updater
-{
+public class UpdateThread extends Updater {
 	@Override
-	public void update()
-	{}
+	public void update() {}
 }

@@ -23,14 +23,11 @@ import de.dakror.gamesetup.util.Helper;
 /**
  * @author Dakror
  */
-public class NGuiParser
-{
+public class NGuiParser {
 	public static final File DIR = new File(System.getProperty("user.home") + "/.dakror/jaGui");
 	
-	public static void main(String[] args)
-	{
-		try
-		{
+	public static void main(String[] args) {
+		try {
 			DIR.mkdirs();
 			if (!new File(DIR, "convert.exe").exists()) Helper.copyInputStream(NGuiParser.class.getResourceAsStream("/res/convert.exe"), new FileOutputStream(new File(DIR, "convert.exe")));
 			
@@ -41,8 +38,7 @@ public class NGuiParser
 			jfc.setFileSelectionMode(JFileChooser.FILES_ONLY);
 			jfc.setFileFilter(new FileNameExtensionFilter("Unity ngui Gui-Skin (*.guiskin)", "guiskin"));
 			
-			if (jfc.showOpenDialog(null) == JFileChooser.APPROVE_OPTION)
-			{
+			if (jfc.showOpenDialog(null) == JFileChooser.APPROVE_OPTION) {
 				p("Collecting GUIDs, Converting Resources");
 				HashMap<String, File> guids = collectGUIDs(jfc.getCurrentDirectory());
 				
@@ -55,8 +51,7 @@ public class NGuiParser
 					if (!l.get(i).startsWith("%") && !l.get(i).startsWith("---")) string += l.get(i) + "\n";
 				
 				Yaml yaml = new Yaml();
-				for (Iterator<Object> iter = yaml.loadAll(string).iterator(); iter.hasNext();)
-				{
+				for (Iterator<Object> iter = yaml.loadAll(string).iterator(); iter.hasNext();) {
 					JSONObject o = new JSONObject((Map<?, ?>) iter.next());
 					p("Cconverting Guiskin");
 					replaceGuidDeep(o, guids, jfc.getSelectedFile());
@@ -65,30 +60,20 @@ public class NGuiParser
 					p("DONE");
 				}
 			}
-		}
-		catch (Exception e)
-		{
+		} catch (Exception e) {
 			e.printStackTrace();
 		}
 	}
 	
-	public static JSONObject replaceGuidDeep(JSONObject data, HashMap<String, File> guids, File sel)
-	{
-		for (String key : JSONObject.getNames(data))
-		{
-			try
-			{
-				if (data.get(key) instanceof JSONArray)
-				{
-					for (int i = 0; i < data.getJSONArray(key).length(); i++)
-					{
+	public static JSONObject replaceGuidDeep(JSONObject data, HashMap<String, File> guids, File sel) {
+		for (String key : JSONObject.getNames(data)) {
+			try {
+				if (data.get(key) instanceof JSONArray) {
+					for (int i = 0; i < data.getJSONArray(key).length(); i++) {
 						if (data.getJSONArray(key).get(i) instanceof JSONObject) data.getJSONArray(key).put(i, replaceGuidDeep(data.getJSONArray(key).getJSONObject(i), guids, sel));
 					}
-				}
-				else if (data.get(key) instanceof JSONObject)
-				{
-					if (data.getJSONObject(key).has("r") && data.getJSONObject(key).has("g") && data.getJSONObject(key).has("b") && data.getJSONObject(key).has("a"))
-					{
+				} else if (data.get(key) instanceof JSONObject) {
+					if (data.getJSONObject(key).has("r") && data.getJSONObject(key).has("g") && data.getJSONObject(key).has("b") && data.getJSONObject(key).has("a")) {
 						String r = Integer.toHexString((int) Math.round(data.getJSONObject(key).getDouble("r") * 255));
 						r = r.length() == 1 ? "0" + r : r;
 						String g = Integer.toHexString((int) Math.round(data.getJSONObject(key).getDouble("g") * 255));
@@ -103,16 +88,13 @@ public class NGuiParser
 						data.getJSONObject(key).put("rgb", "#" + r + g + b);
 						continue;
 					}
-					if (data.getJSONObject(key).has("fileID") && data.getJSONObject(key).getInt("fileID") == 0)
-					{
+					if (data.getJSONObject(key).has("fileID") && data.getJSONObject(key).getInt("fileID") == 0) {
 						data.put(key, JSONObject.NULL);
 						continue;
 					}
-					if (data.getJSONObject(key).has("guid") && (data.getJSONObject(key).get("guid") instanceof String))
-					{
+					if (data.getJSONObject(key).has("guid") && (data.getJSONObject(key).get("guid") instanceof String)) {
 						File f = guids.get(data.getJSONObject(key).getString("guid"));
-						if (f != null)
-						{
+						if (f != null) {
 							data.put(key, f.getPath().replace(sel.getParentFile().getPath() + "\\", "").replace("\\", "/"));
 							continue;
 						}
@@ -120,9 +102,7 @@ public class NGuiParser
 					
 					data.put(key, replaceGuidDeep(data.getJSONObject(key), guids, sel));
 				}
-			}
-			catch (JSONException e)
-			{
+			} catch (JSONException e) {
 				e.printStackTrace();
 			}
 		}
@@ -130,30 +110,23 @@ public class NGuiParser
 		return data;
 	}
 	
-	public static void p(String s)
-	{
+	public static void p(String s) {
 		System.out.println(s);
 	}
 	
-	public static HashMap<String, File> collectGUIDs(File dir) throws Exception
-	{
+	public static HashMap<String, File> collectGUIDs(File dir) throws Exception {
 		HashMap<String, File> hash = new HashMap<>();
 		
-		for (File f : dir.listFiles())
-		{
+		for (File f : dir.listFiles()) {
 			if (f.isDirectory()) hash.putAll(collectGUIDs(f));
-			else if (f.getName().endsWith(".meta"))
-			{
+			else if (f.getName().endsWith(".meta")) {
 				File represents = new File(dir, f.getName().substring(0, f.getName().lastIndexOf(".meta")));
-				if (represents.exists())
-				{
+				if (represents.exists()) {
 					JSONObject o = new JSONObject((Map<?, ?>) new Yaml().load(new FileReader(f)));
-					if (represents.getName().endsWith(".tga"))
-					{
+					if (represents.getName().endsWith(".tga")) {
 						Runtime.getRuntime().exec("\"" + new File(DIR, "convert.exe").getPath() + "\" \"" + represents.getPath() + "\" \"" + represents.getParentFile().getPath() + "/" + represents.getName().replace(".tga", ".png") + "\"");
 						hash.put(o.getString("guid"), new File(represents.getParentFile(), represents.getName().replace(".tga", ".png")));
-					}
-					else hash.put(o.getString("guid"), represents);
+					} else hash.put(o.getString("guid"), represents);
 				}
 			}
 		}

@@ -3,8 +3,7 @@ package de.dakror.jagui.skin;
 /**
  * @author Dakror
  */
-public enum Alignment
-{
+public enum Alignment {
 	UPPER_LEFT,
 	UPPER_CENTER,
 	UPPER_RIGHT,

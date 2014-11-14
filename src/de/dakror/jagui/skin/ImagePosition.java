@@ -3,8 +3,7 @@ package de.dakror.jagui.skin;
 /**
  * @author Dakror
  */
-public enum ImagePosition
-{
+public enum ImagePosition {
 	IMAGE_LEFT,
 	IMAGE_ABOVE,
 	IMAGE_ONLY,

@@ -6,24 +6,20 @@ import java.io.File;
 /**
  * @author Dakror
  */
-public class ComponentMode
-{
+public class ComponentMode {
 	Color textColor;
 	File background;
 	
-	public ComponentMode(Color color, File background)
-	{
+	public ComponentMode(Color color, File background) {
 		textColor = color;
 		this.background = background;
 	}
 	
-	public Color getTextColor()
-	{
+	public Color getTextColor() {
 		return textColor;
 	}
 	
-	public File getBackground()
-	{
+	public File getBackground() {
 		return background;
 	}
 }

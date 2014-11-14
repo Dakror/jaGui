@@ -5,7 +5,6 @@ import de.dakror.jagui.skin.GuiSkin;
 /**
  * @author Dakror
  */
-public class JaGui
-{
+public class JaGui {
 	GuiSkin guiSkin;
 }

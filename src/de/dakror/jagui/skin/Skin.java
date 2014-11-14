@@ -7,8 +7,7 @@ import java.awt.Point;
 /**
  * @author Dakror
  */
-public class Skin
-{
+public class Skin {
 	// -- modes -- //
 	ComponentMode normal;
 	ComponentMode active;

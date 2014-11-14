@@ -9,13 +9,11 @@ import de.dakror.jaguitest.game.Game;
 /**
  * @author Dakror
  */
-public class GameLayer extends Layer
-{
+public class GameLayer extends Layer {
 	float tick = 0;
 	
 	@Override
-	public void draw(Graphics2D g)
-	{
+	public void draw(Graphics2D g) {
 		Color c = g.getColor();
 		g.setColor(Color.blue);
 		g.fillArc((int) (Math.sin(tick) * (Game.getWidth() / 2 - 25) + Game.getWidth() / 2 - 25), (int) (Math.cos(tick) * (Game.getHeight() / 2 - 135) + Game.getHeight() / 2 - 135), 50, 50, 0, 360);
@@ -23,13 +21,11 @@ public class GameLayer extends Layer
 	}
 	
 	@Override
-	public void update(int tick)
-	{
+	public void update(int tick) {
 		this.tick += 0.01f;
 	}
 	
 	@Override
-	public void init()
-	{}
+	public void init() {}
 	
 }
