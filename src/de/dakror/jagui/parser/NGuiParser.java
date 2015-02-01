@@ -29,7 +29,8 @@ public class NGuiParser {
 	public static void main(String[] args) {
 		try {
 			DIR.mkdirs();
-			if (!new File(DIR, "convert.exe").exists()) Helper.copyInputStream(NGuiParser.class.getResourceAsStream("/res/convert.exe"), new FileOutputStream(new File(DIR, "convert.exe")));
+			if (!new File(DIR, "convert.exe").exists())
+				Helper.copyInputStream(NGuiParser.class.getResourceAsStream("/res/convert.exe"), new FileOutputStream(new File(DIR, "convert.exe")));
 			
 			UIManager.setLookAndFeel(UIManager.getSystemLookAndFeelClassName());
 			
@@ -124,7 +125,8 @@ public class NGuiParser {
 				if (represents.exists()) {
 					JSONObject o = new JSONObject((Map<?, ?>) new Yaml().load(new FileReader(f)));
 					if (represents.getName().endsWith(".tga")) {
-						Runtime.getRuntime().exec("\"" + new File(DIR, "convert.exe").getPath() + "\" \"" + represents.getPath() + "\" \"" + represents.getParentFile().getPath() + "/" + represents.getName().replace(".tga", ".png") + "\"");
+						Runtime.getRuntime().exec("\"" + new File(DIR, "convert.exe").getPath() + "\" \"" + represents.getPath() + "\" \"" + represents.getParentFile().getPath() + "/"
+																					+ represents.getName().replace(".tga", ".png") + "\"");
 						hash.put(o.getString("guid"), new File(represents.getParentFile(), represents.getName().replace(".tga", ".png")));
 					} else hash.put(o.getString("guid"), represents);
 				}

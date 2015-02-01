@@ -19,7 +19,8 @@ public class GuiSkin {
 		try {
 			skinFile = file;
 			flatData = new JSONObject(Helper.getFileContent(file)).getJSONObject("MonoBehaviour");
-			if (flatData.has("m_Font") && !flatData.isNull("m_Font")) globalFont = Font.createFont(Font.TRUETYPE_FONT, new File(skinFile.getParentFile().getPath() + "/" + flatData.getString("m_Font")));
+			if (flatData.has("m_Font") && !flatData.isNull("m_Font"))
+				globalFont = Font.createFont(Font.TRUETYPE_FONT, new File(skinFile.getParentFile().getPath() + "/" + flatData.getString("m_Font")));
 		} catch (Exception e) {
 			e.printStackTrace();
 		}
